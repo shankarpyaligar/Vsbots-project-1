@@ -1,0 +1,21 @@
+# Ignore zip files
+*.zip
+
+# Node modules (if you use npm later)
+node_modules/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# XAMPP temp files (if any)
+*.tmp
+
+# VS Code settings (optional)
+.vscode/
+
+# Environment files (important for backend projects)
+.env
