@@ -24828,5 +24828,64 @@ section.ui-element {
     font-size: 26px;
   }
 }
+.rev_slider .rev-slidebg {
+  height: 100vh !important;
+  object-fit: cover;
+}
+
+/* Hero split layout: left (colored) + right (content) each 50% */
+.rev_slider .tp-caption.rev-slider-white-block {
+  display: block !important;
+  position: absolute !important;
+  width: 50% !important;
+  left: 0 !important;
+  right: auto !important;
+  top: 0 !important;
+  height: 100vh !important;
+  background: rgba(212,170,50,0.12) !important; /* toned yellow */
+  box-shadow: none !important;
+  z-index: 6 !important;
+}
+
+.rev_slider .tp-caption.tp-shape.rs-parallaxlevel-tobggroup {
+  display: block !important;
+  position: absolute !important;
+  width: 50% !important;
+  right: 0 !important;
+  left: auto !important;
+  top: 0 !important;
+  height: 100vh !important;
+  background: linear-gradient(rgba(0,0,0,0.12), rgba(0,0,0,0.35)) !important; /* softer right overlay */
+  z-index: 7 !important;
+}
+
+/* Align the numeric/title block more comfortably on the left half */
+.rev_slider .tp-caption.rev-btn.slider-block {
+  left: 6% !important;
+  transform: translateY(-50%) !important;
+  top: 50% !important;
+}
+
+/* Responsive: stack panels on smaller screens */
+@media (max-width: 991px) {
+  .rev_slider .tp-caption.rev-slider-white-block,
+  .rev_slider .tp-caption.tp-shape.rs-parallaxlevel-tobggroup {
+    width: 100% !important;
+    height: auto !important;
+    position: relative !important;
+    display: block !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    background: transparent !important;
+  }
+  .rev_slider .tp-caption.rev-btn.slider-block {
+    left: 4% !important;
+    right: 4% !important;
+    transform: none !important;
+    top: auto !important;
+    margin: 20px auto !important;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */

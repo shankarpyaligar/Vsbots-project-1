@@ -5,7 +5,7 @@
     <meta name="description" content="html 5 template">
     <meta name="author" content="">
     <title>Contact Us</title>
-    <?php include('header.php')?>
+    <?php include('header.php') ?>
 </head>
 
 <body class="inner-pages hd-white">
@@ -28,7 +28,7 @@
                         <div class="mmenu-trigger">
                             <button class="hamburger hamburger--collapse" type="button">
                                 <span class="hamburger-box">
-							<span class="hamburger-inner"></span>
+                                    <span class="hamburger-inner"></span>
                                 </span>
                             </button>
                         </div>
@@ -45,7 +45,7 @@
                                         </li>
                                         <li><a href="#">Home Image</a>
                                             <ul>
-                                               <li><a href="index.html">Modern Home</a></li>
+                                                <li><a href="index.html">Modern Home</a></li>
                                                 <li><a href="index-2.html">Home Boxed Image</a></li>
                                                 <li><a href="index-3.html">Home Modern Image</a></li>
                                                 <li><a href="index-5.html">Home Minimalist Style</a></li>
@@ -56,146 +56,149 @@
                                                 <li><a href="index-17.html">Modern Parallax Image</a></li>
                                                 <li><a href="index-18.html">Image Filter Search</a>
                                                 <li><a href="index-21.html">Parallax Image video</a></li>
-												<li><a href="index-23.html">Home Image</a></li>
-												<li><a href="index-24.html">Image and video</a></li>
+                                                <li><a href="index-23.html">Home Image</a></li>
+                                                <li><a href="index-24.html">Image and video</a></li>
                                             </ul>
-                                            </li>
-                                            <li><a href="#">Home Video</a>
-                                                <ul>
-                                                    <li><a href="index-4.html">Home Video Image</a></li>
-                                                    <li><a href="index-7.html">Home Video</a></li>
-                                                    <li><a href="index-20.html">Home Modern Video</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="#">Home Slider</a>
-                                                <ul>                                                    
-                                                    <li><a href="index-11.html">Slider Presentation 2</a></li>
-                                                    <li><a href="index-16.html">Slider Presentation 3</a></li>
-                                                    <li><a href="index-19.html">Home Modern Slider</a></li>
-                                                    <li><a href="index-22.html">Home Image Slider</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="#">Home Styles</a>
-                                                <ul>
-                                                    <li><a href="index-13.html">Home Style Dark</a></li>
-                                                    <li><a href="index-14.html">Home Style White</a></li>
-                                                </ul>
-                                            </li>
+                                        </li>
+                                        <li><a href="#">Home Video</a>
+                                            <ul>
+                                                <li><a href="index-4.html">Home Video Image</a></li>
+                                                <li><a href="index-7.html">Home Video</a></li>
+                                                <li><a href="index-20.html">Home Modern Video</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Home Slider</a>
+                                            <ul>
+                                                <li><a href="index-11.html">Slider Presentation 2</a></li>
+                                                <li><a href="index-16.html">Slider Presentation 3</a></li>
+                                                <li><a href="index-19.html">Home Modern Slider</a></li>
+                                                <li><a href="index-22.html">Home Image Slider</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Home Styles</a>
+                                            <ul>
+                                                <li><a href="index-13.html">Home Style Dark</a></li>
+                                                <li><a href="index-14.html">Home Style White</a></li>
+                                            </ul>
+                                        </li>
                                     </ul>
-                                    </li>
-                                    <li><a href="#">Listing</a>
-                                        <ul>
-                                            <li><a href="#">Listing Grid</a>
-                                                <ul>
-                                                    <li><a href="properties-grid-1.html">Grid View 1</a></li>
-                                                    <li><a href="properties-grid-2.html">Grid View 2</a></li>
-                                                    <li><a href="properties-grid-3.html">Grid View 3</a></li>
-                                                    <li><a href="properties-grid-4.html">Grid View 4</a></li>
-                                                    <li><a href="properties-full-grid-1.html">Grid Fullwidth 1</a></li>
-                                                    <li><a href="properties-full-grid-2.html">Grid Fullwidth 2</a></li>
-                                                    <li><a href="properties-full-grid-3.html">Grid Fullwidth 3</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="#">Listing List</a>
-                                                <ul>
-                                                    <li><a href="properties-full-list-1.html">List View 1</a></li>
-                                                    <li><a href="properties-list-1.html">List View 2</a></li>
-                                                    <li><a href="properties-full-list-2.html">List View 3</a></li>
-                                                    <li><a href="properties-list-2.html">List View 4</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="#">Listing Map</a>
-                                                <ul>
-                                                    <li><a href="properties-half-map-1.html">Half Map 1</a></li>
-                                                    <li><a href="properties-half-map-2.html">Half Map 2</a></li>
-                                                    <li><a href="properties-half-map-3.html">Half Map 3</a></li>
-                                                    <li><a href="properties-top-map-1.html">Top Map 1</a></li>
-                                                    <li><a href="properties-top-map-2.html">Top Map 2</a></li>
-                                                    <li><a href="properties-top-map-3.html">Top Map 3</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="#">Agent View</a>
-                                                <ul>
-                                                    <li><a href="agents-listing-grid.html">Agent View 1</a></li>
-                                                    <li><a href="agents-listing-row.html">Agent View 2</a></li>
-                                                    <li><a href="agents-listing-row-2.html">Agent View 3</a></li>
-                                                    <li><a href="agent-details.html">Agent Details</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="#">Agencies View</a>
-                                                <ul>
-                                                    <li><a href="agencies-listing-1.html">Agencies View 1</a></li>
-                                                    <li><a href="agencies-listing-2.html">Agencies View 2</a></li>
-                                                    <li><a href="agencies-details.html">Agencies Details</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Property</a>
-                                        <ul>
-                                            <li><a href="single-property-1.html">Single Property 1</a></li>
-                                            <li><a href="single-property-2.html">Single Property 2</a></li>
-                                            <li><a href="single-property-3.html">Single Property 3</a></li>
-                                            <li><a href="single-property-4.html">Single Property 4</a></li>
-                                            <li><a href="single-property-5.html">Single Property 5</a></li>
-                                            <li><a href="single-property-6.html">Single Property 6</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Pages</a>
-                                        <ul>
-                                            <li><a href="#">Shop</a>
-                                                <ul>
-                                                    <li><a href="shop-with-sidebar.html">Product Sidebar</a></li>
-                                                    <li><a href="shop-full-page.html">Product Fullpage</a></li>
-                                                    <li><a href="shop-single.html">Product Single</a></li>
-                                                    <li><a href="shop-checkout.html">Checkout Page</a></li>
-                                                    <li><a href="shop-order.html">Order Page</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="#">User Panel</a>
-                                                <ul>
-                                                    <li><a href="dashboard.html">Dashboard</a></li>
-                                                    <li><a href="user-profile.html">User Profile</a></li>
-                                                    <li><a href="my-listings.html">My Properties</a></li>
-                                                    <li><a href="favorited-listings.html">Favorited Properties</a></li>
-                                                    <li><a href="add-property.html">Add Property</a></li>
-                                                    <li><a href="payment-method.html">Payment Method</a></li>
-                                                    <li><a href="invoice.html">Invoice</a></li>
-                                                    <li><a href="change-password.html">Change Password</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="about.html">About Us</a></li>
-                                            <li><a href="faq.html">Faq</a></li>
-                                            <li><a href="pricing-table.html">Pricing Tables</a></li>
-                                            <li><a href="404.html">Page 404</a></li>
-                                            <li><a href="login.html">Login</a></li>
-                                            <li><a href="register.html">Register</a></li>
-                                            <li><a href="coming-soon.html">Coming Soon</a></li>
-                                            <li><a href="under-construction.html">Under Construction</a></li>
-                                            <li><a href="ui-element.html">UI Elements</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Blog</a>
-                                        <ul>
-                                            <li><a href="#">Grid Layout</a>
-                                                <ul>
-                                                    <li><a href="blog-full-grid.html">Full Grid</a></li>
-                                                    <li><a href="blog-grid-sidebar.html">With Sidebar</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="#">List Layout</a>
-                                                <ul>
-                                                    <li><a href="blog-full-list.html">Full List</a></li>
-                                                    <li><a href="blog-list-sidebar.html">With Sidebar</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="contact-us.html">Contact</a></li>
-                                    <li class="d-none d-xl-none d-block d-lg-block"><a href="login.html">Login</a></li>
-                                    <li class="d-none d-xl-none d-block d-lg-block"><a href="register.html">Register</a></li>
-                                    <li class="d-none d-xl-none d-block d-lg-block mt-5 pb-4 ml-5 border-bottom-0"><a href="add-property.html" class="button border btn-lg btn-block text-center">Add Listing<i class="fas fa-laptop-house ml-2"></i></a></li>
+                                </li>
+                                <li><a href="#">Listing</a>
+                                    <ul>
+                                        <li><a href="#">Listing Grid</a>
+                                            <ul>
+                                                <li><a href="properties-grid-1.html">Grid View 1</a></li>
+                                                <li><a href="properties-grid-2.html">Grid View 2</a></li>
+                                                <li><a href="properties-grid-3.html">Grid View 3</a></li>
+                                                <li><a href="properties-grid-4.html">Grid View 4</a></li>
+                                                <li><a href="properties-full-grid-1.html">Grid Fullwidth 1</a></li>
+                                                <li><a href="properties-full-grid-2.html">Grid Fullwidth 2</a></li>
+                                                <li><a href="properties-full-grid-3.html">Grid Fullwidth 3</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Listing List</a>
+                                            <ul>
+                                                <li><a href="properties-full-list-1.html">List View 1</a></li>
+                                                <li><a href="properties-list-1.html">List View 2</a></li>
+                                                <li><a href="properties-full-list-2.html">List View 3</a></li>
+                                                <li><a href="properties-list-2.html">List View 4</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Listing Map</a>
+                                            <ul>
+                                                <li><a href="properties-half-map-1.html">Half Map 1</a></li>
+                                                <li><a href="properties-half-map-2.html">Half Map 2</a></li>
+                                                <li><a href="properties-half-map-3.html">Half Map 3</a></li>
+                                                <li><a href="properties-top-map-1.html">Top Map 1</a></li>
+                                                <li><a href="properties-top-map-2.html">Top Map 2</a></li>
+                                                <li><a href="properties-top-map-3.html">Top Map 3</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Agent View</a>
+                                            <ul>
+                                                <li><a href="agents-listing-grid.html">Agent View 1</a></li>
+                                                <li><a href="agents-listing-row.html">Agent View 2</a></li>
+                                                <li><a href="agents-listing-row-2.html">Agent View 3</a></li>
+                                                <li><a href="agent-details.html">Agent Details</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Agencies View</a>
+                                            <ul>
+                                                <li><a href="agencies-listing-1.html">Agencies View 1</a></li>
+                                                <li><a href="agencies-listing-2.html">Agencies View 2</a></li>
+                                                <li><a href="agencies-details.html">Agencies Details</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Property</a>
+                                    <ul>
+                                        <li><a href="single-property-1.html">Single Property 1</a></li>
+                                        <li><a href="single-property-2.html">Single Property 2</a></li>
+                                        <li><a href="single-property-3.html">Single Property 3</a></li>
+                                        <li><a href="single-property-4.html">Single Property 4</a></li>
+                                        <li><a href="single-property-5.html">Single Property 5</a></li>
+                                        <li><a href="single-property-6.html">Single Property 6</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Pages</a>
+                                    <ul>
+                                        <li><a href="#">Shop</a>
+                                            <ul>
+                                                <li><a href="shop-with-sidebar.html">Product Sidebar</a></li>
+                                                <li><a href="shop-full-page.html">Product Fullpage</a></li>
+                                                <li><a href="shop-single.html">Product Single</a></li>
+                                                <li><a href="shop-checkout.html">Checkout Page</a></li>
+                                                <li><a href="shop-order.html">Order Page</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">User Panel</a>
+                                            <ul>
+                                                <li><a href="dashboard.html">Dashboard</a></li>
+                                                <li><a href="user-profile.html">User Profile</a></li>
+                                                <li><a href="my-listings.html">My Properties</a></li>
+                                                <li><a href="favorited-listings.html">Favorited Properties</a></li>
+                                                <li><a href="add-property.html">Add Property</a></li>
+                                                <li><a href="payment-method.html">Payment Method</a></li>
+                                                <li><a href="invoice.html">Invoice</a></li>
+                                                <li><a href="change-password.html">Change Password</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="about.html">About Us</a></li>
+                                        <li><a href="faq.html">Faq</a></li>
+                                        <li><a href="pricing-table.html">Pricing Tables</a></li>
+                                        <li><a href="404.html">Page 404</a></li>
+                                        <li><a href="login.html">Login</a></li>
+                                        <li><a href="register.html">Register</a></li>
+                                        <li><a href="coming-soon.html">Coming Soon</a></li>
+                                        <li><a href="under-construction.html">Under Construction</a></li>
+                                        <li><a href="ui-element.html">UI Elements</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Blog</a>
+                                    <ul>
+                                        <li><a href="#">Grid Layout</a>
+                                            <ul>
+                                                <li><a href="blog-full-grid.html">Full Grid</a></li>
+                                                <li><a href="blog-grid-sidebar.html">With Sidebar</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">List Layout</a>
+                                            <ul>
+                                                <li><a href="blog-full-list.html">Full List</a></li>
+                                                <li><a href="blog-list-sidebar.html">With Sidebar</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="blog-details.html">Blog Details</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact-us.html">Contact</a></li>
+                                <li class="d-none d-xl-none d-block d-lg-block"><a href="login.html">Login</a></li>
+                                <li class="d-none d-xl-none d-block d-lg-block"><a href="register.html">Register</a>
+                                </li>
+                                <li class="d-none d-xl-none d-block d-lg-block mt-5 pb-4 ml-5 border-bottom-0"><a
+                                        href="add-property.html" class="button border btn-lg btn-block text-center">Add
+                                        Listing<i class="fas fa-laptop-house ml-2"></i></a></li>
                             </ul>
                         </nav>
                         <!-- Main Navigation / End -->
@@ -206,7 +209,8 @@
                     <div class="right-side d-none d-none d-lg-none d-xl-flex">
                         <!-- Header Widget -->
                         <div class="header-widget">
-                            <a href="add-property.html" class="button border">Add Listing<i class="fas fa-laptop-house ml-2"></i></a>
+                            <a href="add-property.html" class="button border">Add Listing<i
+                                    class="fas fa-laptop-house ml-2"></i></a>
                         </div>
                         <!-- Header Widget / End -->
                     </div>
@@ -220,7 +224,7 @@
                         <ul>
                             <li><a href="user-profile.html"> Edit profile</a></li>
                             <li><a href="add-property.html"> Add Property</a></li>
-                            <li><a href="payment-method.html">  Payments</a></li>
+                            <li><a href="payment-method.html"> Payments</a></li>
                             <li><a href="change-password.html"> Change Password</a></li>
                             <li><a href="#">Log Out</a></li>
                         </ul>
@@ -239,7 +243,9 @@
                     <!-- lang-wrap-->
                     <div class="header-user-menu user-menu add d-none d-lg-none d-xl-flex">
                         <div class="lang-wrap">
-                            <div class="show-lang"><span><i class="fas fa-globe-americas"></i><strong>ENG</strong></span><i class="fa fa-caret-down arrlan"></i></div>
+                            <div class="show-lang"><span><i
+                                        class="fas fa-globe-americas"></i><strong>ENG</strong></span><i
+                                    class="fa fa-caret-down arrlan"></i></div>
                             <ul class="lang-tooltip lang-action no-list-style">
                                 <li><a href="#" class="current-lan" data-lantext="En">English</a></li>
                                 <li><a href="#" data-lantext="Fr">Francais</a></li>
@@ -281,22 +287,27 @@
                         <h3 class="mb-4">Contact Us</h3>
                         <form id="contactform" class="contact-form" name="contactform" method="post" novalidate>
                             <div id="success" class="successform">
-                                <p class="alert alert-success font-weight-bold" role="alert">Your message was sent successfully!</p>
+                                <p class="alert alert-success font-weight-bold" role="alert">Your message was sent
+                                    successfully!</p>
                             </div>
                             <div id="error" class="errorform">
                                 <p>Something went wrong, try refreshing and submitting the form again.</p>
                             </div>
                             <div class="form-group">
-                                <input type="text" required class="form-control input-custom input-full" name="name" placeholder="First Name">
+                                <input type="text" required class="form-control input-custom input-full" name="name"
+                                    placeholder="First Name">
                             </div>
                             <div class="form-group">
-                                <input type="text" required class="form-control input-custom input-full" name="lastname" placeholder="Last Name">
+                                <input type="text" required class="form-control input-custom input-full" name="lastname"
+                                    placeholder="Last Name">
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control input-custom input-full" name="email" placeholder="Email">
+                                <input type="text" class="form-control input-custom input-full" name="email"
+                                    placeholder="Email">
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control textarea-custom input-full" id="ccomment" name="message" required rows="8" placeholder="Message"></textarea>
+                                <textarea class="form-control textarea-custom input-full" id="ccomment" name="message"
+                                    required rows="8" placeholder="Message"></textarea>
                             </div>
                             <button type="submit" id="submit-contact" class="btn btn-primary btn-lg">Submit</button>
                         </form>
@@ -309,15 +320,16 @@
                                 <li>
                                     <div class="info">
                                         <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                        <p class="in-p">Office:# 10, 2nd floor, Eureka Corner, Koppikar Road, Hubli-20</p>
+                                        <p class="in-p">Office:# 10, 2nd floor, Eureka Corner, Koppikar Road, Hubli-20
+                                        </p>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="info">
                                         <i class="fa fa-phone" aria-hidden="true"></i>
                                         <p class="in-p">9538886974</p>
-                                         <p class="in-p">9886601044</p>
-                                          <p class="in-p">8050153337</p>
+                                        <p class="in-p">9886601044</p>
+                                        <p class="in-p">8050153337</p>
                                     </div>
                                 </li>
                                 <li>
@@ -327,7 +339,7 @@
                                     </div>
                                 </li>
                                 <li>
-                                    
+
                                 </li>
                             </ul>
                         </div>
@@ -336,8 +348,8 @@
             </div>
         </section>
         <!-- END SECTION CONTACT US -->
-
-        <!-- START FOOTER -->
+        <?php include('footer.php') ?>
+        <!-- START FOOTER 
         <footer class="first-footer">
             <div class="top-footer">
                 <div class="container">
@@ -345,16 +357,18 @@
                         <div class="col-lg-3 col-md-6">
                             <div class="netabout">
                                 <a href="index.html" class="logo">
-                                    <img src="images/logo-footer.svg" alt="netcom">
+
                                 </a>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum incidunt architecto soluta laboriosam, perspiciatis, aspernatur officiis esse.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum incidunt architecto
+                                    soluta laboriosam, perspiciatis, aspernatur officiis esse.</p>
                             </div>
                             <div class="contactus">
                                 <ul>
                                     <li>
                                         <div class="info">
                                             <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                            <p class="in-p">Office:# 10, 2nd floor, Eureka Corner, Koppikar Road, Hubli-20</p>
+                                            <p class="in-p">Office:# 10, 2nd floor, Eureka Corner, Koppikar Road,
+                                                Hubli-20</p>
                                         </div>
                                     </li>
                                     <li>
@@ -405,7 +419,8 @@
                                                 <i class="fa fa-twitter" aria-hidden="true"></i>
                                             </div>
                                             <div class="text">
-                                                <h5><a href="#">@findhouses</a> all share them with me baby said inspet.</h5>
+                                                <h5><a href="#">@findhouses</a> all share them with me baby said inspet.
+                                                </h5>
                                                 <h4>about 5 days ago</h4>
                                             </div>
                                         </div>
@@ -414,7 +429,8 @@
                                                 <i class="fa fa-twitter" aria-hidden="true"></i>
                                             </div>
                                             <div class="text">
-                                                <h5><a href="#">@findhouses</a> all share them with me baby said inspet.</h5>
+                                                <h5><a href="#">@findhouses</a> all share them with me baby said inspet.
+                                                </h5>
                                                 <h4>about 5 days ago</h4>
                                             </div>
                                         </div>
@@ -423,7 +439,8 @@
                                                 <i class="fa fa-twitter" aria-hidden="true"></i>
                                             </div>
                                             <div class="text">
-                                                <h5><a href="#">@findhouses</a> all share them with me baby said inspet.</h5>
+                                                <h5><a href="#">@findhouses</a> all share them with me baby said inspet.
+                                                </h5>
                                                 <h4>about 5 days ago</h4>
                                             </div>
                                         </div>
@@ -434,7 +451,8 @@
                         <div class="col-lg-3 col-md-6">
                             <div class="newsletters">
                                 <h3>Newsletters</h3>
-                                <p>Sign Up for Our Newsletter to get Latest Updates and Offers. Subscribe to receive news in your inbox.</p>
+                                <p>Sign Up for Our Newsletter to get Latest Updates and Offers. Subscribe to receive
+                                    news in your inbox.</p>
                             </div>
                             <form class="bloq-email mailchimp form-inline" method="post">
                                 <label for="subscribeEmail" class="error"></label>
@@ -462,7 +480,7 @@
         </footer>
 
         <a data-scroll href="#wrapper" class="go-up"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a>
-        <!-- END FOOTER -->
+        END FOOTER -->
 
         <!--register form -->
         <div class="login-and-register-form modal">
@@ -505,7 +523,8 @@
                             <div class="tab">
                                 <div id="tab-2" class="tab-contents">
                                     <div class="custom-form">
-                                        <form method="post" name="registerform" class="main-register-form" id="main-register-form2">
+                                        <form method="post" name="registerform" class="main-register-form"
+                                            id="main-register-form2">
                                             <label>First Name * </label>
                                             <input name="name" type="text" onClick="this.select()" value="">
                                             <label>Second Name *</label>
