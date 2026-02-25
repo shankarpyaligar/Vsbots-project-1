@@ -1,0 +1,82 @@
+/* Header Layout */
+.custom-header {
+    background: #ffffff;
+    padding: 15px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Flex container */
+.header-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Logo */
+.logo img {
+    width: 90px;
+    height: auto;
+}
+
+/* Navigation */
+.main-nav {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #000;
+    transition: 0.3s ease;
+}
+
+.nav-menu li a:hover {
+    color: #b03d3d;
+}
+
+/* Call Button */
+.call-btn {
+    background: linear-gradient(45deg, #b03d3d, #b03d3d);
+    color: #fff;
+    padding: 10px 22px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: 0.3s ease;
+}
+
+.call-btn:hover {
+    background: linear-gradient(45deg, #a37808, #b8860b);
+}
+
+.nav-menu li {
+    position: relative;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    padding: 8px 18px;
+    display: inline-block;
+    transition: 0.3s ease;
+}
+
+/* Hover Box Effect */
+.nav-menu li a:hover {
+    background: #f2f2f2;
+    border-radius: 6px;
+}

@@ -2,10 +2,10 @@
 <html lang="zxx">
 
 <head>
-    <meta name="description" content="html 5 template">
-    <meta name="author" content="">
-    <title>Contact Us</title>
-    <?php include('header.php') ?>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <?php include('header.php'); ?>
 </head>
 
 <body class="inner-pages hd-white">
@@ -14,33 +14,6 @@
         <!-- START SECTION HEADINGS -->
         <!-- Header Container
         ================================================== -->
-        <header id="header-container">
-            <!-- Header -->
-            <div id="header">
-                <div class="container container-header">
-                    <!-- Left Side Content -->
-                    <div class="left-side">
-                        <!-- Logo -->
-                        <div id="logo">
-                            <a href="index.html"><img src="images/logo-red.svg" alt=""></a>
-                        </div>
-                        <!-- Mobile Navigation -->
-                        <div class="mmenu-trigger">
-                            <button class="hamburger hamburger--collapse" type="button">
-                                <span class="hamburger-box">
-                                    <span class="hamburger-inner"></span>
-                                </span>
-                            </button>
-                        </div>
-                    </div>
-                    <!-- Left Side Content / End -->
-
-
-                </div>
-            </div>
-            <!-- Header / End -->
-
-        </header>
         <?php include('menue.php'); ?>
         <div class="clearfix"></div>
         <!-- Header Container / End -->
@@ -48,89 +21,91 @@
         <section class="headings">
             <div class="text-heading text-center">
                 <div class="container">
-                    <h1>Contact Us</h1>
-                    <h2><a href="index.html">Home </a> &nbsp;/&nbsp; Contact Us</h2>
+                    <h1>Pricing Table</h1>
+                    <h2><a href="index.html">Home </a> &nbsp;/&nbsp; Pricing Table</h2>
                 </div>
             </div>
         </section>
         <!-- END SECTION HEADINGS -->
 
-        <!-- START SECTION CONTACT US -->
-        <section class="contact-us">
+        <!-- START SECTION PRICING -->
+        <section class="pricing-table bg-white-2">
             <div class="container">
-                <div class="property-location mb-5">
-                    <h3>Our Location</h3>
-                    <div class="divider-fade"></div>
-                    <div id="map-contact" class="contact-map"></div>
+                <div class="section-title">
+                    <h3>Pricing</h3>
+                    <h2>Packages</h2>
                 </div>
                 <div class="row">
-                    <div class="col-lg-8 col-md-12">
-                        <h3 class="mb-4">Contact Us</h3>
-                        <form id="contactform" class="contact-form" name="contactform" method="post" novalidate>
-                            <div id="success" class="successform">
-                                <p class="alert alert-success font-weight-bold" role="alert">Your message was sent
-                                    successfully!</p>
-                            </div>
-                            <div id="error" class="errorform">
-                                <p>Something went wrong, try refreshing and submitting the form again.</p>
-                            </div>
-                            <div class="form-group">
-                                <input type="text" required class="form-control input-custom input-full" name="name"
-                                    placeholder="First Name">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" required class="form-control input-custom input-full" name="lastname"
-                                    placeholder="Last Name">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control input-custom input-full" name="email"
-                                    placeholder="Email">
-                            </div>
-                            <div class="form-group">
-                                <textarea class="form-control textarea-custom input-full" id="ccomment" name="message"
-                                    required rows="8" placeholder="Message"></textarea>
-                            </div>
-                            <button type="submit" id="submit-contact" class="btn btn-primary btn-lg">Submit</button>
-                        </form>
-                    </div>
-                    <div class="col-lg-4 col-md-12 bgc" style="background-image:cantact.jpg !important;">
-                        <div class="call-info">
-                            <h3>Contact Details</h3>
-                            <p class="mb-5">Please find below contact details and contact us today!</p>
-                            <ul>
-                                <li>
-                                    <div class="info">
-                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                        <p class="in-p">Office:# 10, 2nd floor, Eureka Corner, Koppikar Road, Hubli-20
-                                        </p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="info">
-                                        <i class="fa fa-phone" aria-hidden="true"></i>
-                                        <p class="in-p">9538886974</p>
-                                        <p class="in-p">9886601044</p>
-                                        <p class="in-p">8050153337</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="info">
-                                        <i class="fa fa-envelope" aria-hidden="true"></i>
-                                        <p class="in-p ti">kitturweb@gmail.com</p>
-                                    </div>
-                                </li>
-                                <li>
-
-                                </li>
+                    <!-- plan start -->
+                    <div class="col-lg-3 col-md-6 col-xs-12">
+                        <div class="plan text-center">
+                            <span class="plan-name">Basic <small>Monthly plan</small></span>
+                            <p class="plan-price"><sup class="currency">$</sup><strong>49</strong><sub>.99</sub></p>
+                            <ul class="list-unstyled">
+                                <li>100GB Monthly Bandwidth</li>
+                                <li>$100 Google AdWords</li>
+                                <li>100 Domain Hosting</li>
+                                <li>SSL Shopping Cart</li>
+                                <li>24/7 Live Support</li>
                             </ul>
+                            <a class="btn btn-primary" href="#.">Sign Up</a>
                         </div>
                     </div>
+                    <!-- plan end -->
+                    <!-- plan start -->
+                    <div class="col-lg-3 col-md-6 col-xs-12">
+                        <div class="plan text-center">
+                            <span class="plan-name">Standard <small>Monthly plan</small></span>
+                            <p class="plan-price"><sup class="currency">$</sup><strong>99</strong><sub>.99</sub></p>
+                            <ul class="list-unstyled">
+                                <li>100GB Monthly Bandwidth</li>
+                                <li>$100 Google AdWords</li>
+                                <li>100 Domain Hosting</li>
+                                <li>SSL Shopping Cart</li>
+                                <li>24/7 Live Support</li>
+                            </ul>
+                            <a class="btn btn-primary" href="#.">Sign Up</a>
+                        </div>
+                    </div>
+                    <!-- plan end -->
+                    <!-- plan start -->
+                    <div class="col-lg-3 col-md-6 col-xs-12">
+                        <div class="plan text-center featured no-mgb yes-mgb">
+                            <span class="plan-name">Professional <small>Monthly plan</small></span>
+                            <p class="plan-price"><sup class="currency">$</sup><strong>149</strong><sub>.99</sub></p>
+                            <ul class="list-unstyled">
+                                <li>100GB Monthly Bandwidth</li>
+                                <li>$100 Google AdWords</li>
+                                <li>100 Domain Hosting</li>
+                                <li>SSL Shopping Cart</li>
+                                <li>24/7 Live Support</li>
+                            </ul>
+                            <a class="btn btn-primary" href="#.">Sign Up</a>
+                        </div>
+                    </div>
+                    <!-- plan end -->
+                    <!-- plan start -->
+                    <div class="col-lg-3 col-md-6 col-xs-12">
+                        <div class="plan text-center no-mgb">
+                            <span class="plan-name">Premium <small>Monthly plan</small></span>
+                            <p class="plan-price"><sup class="currency">$</sup><strong>399</strong><sub>.99</sub></p>
+                            <ul class="list-unstyled">
+                                <li>100GB Monthly Bandwidth</li>
+                                <li>$100 Google AdWords</li>
+                                <li>100 Domain Hosting</li>
+                                <li>SSL Shopping Cart</li>
+                                <li>24/7 Live Support</li>
+                            </ul>
+                            <a class="btn btn-primary" href="#.">Sign Up</a>
+                        </div>
+                    </div>
+                    <!-- plan end -->
                 </div>
             </div>
         </section>
-        <!-- END SECTION CONTACT US -->
-        <?php include('footer.php') ?>
-        <!-- START FOOTER 
+        <!-- END SECTION PRICING -->
+
+        <!-- START FOOTER -->
         <footer class="first-footer">
             <div class="top-footer">
                 <div class="container">
@@ -138,7 +113,7 @@
                         <div class="col-lg-3 col-md-6">
                             <div class="netabout">
                                 <a href="index.html" class="logo">
-
+                                    <img src="images/logo-footer.svg" alt="netcom">
                                 </a>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum incidunt architecto
                                     soluta laboriosam, perspiciatis, aspernatur officiis esse.</p>
@@ -148,22 +123,19 @@
                                     <li>
                                         <div class="info">
                                             <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                            <p class="in-p">Office:# 10, 2nd floor, Eureka Corner, Koppikar Road,
-                                                Hubli-20</p>
+                                            <p class="in-p">95 South Park Avenue, USA</p>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="info">
                                             <i class="fa fa-phone" aria-hidden="true"></i>
-                                            <p class="in-p">9538886974</p>
-                                            <p class="in-p">9886601044</p>
-                                            <p class="in-p">8050153337</p>
+                                            <p class="in-p">+456 875 369 208</p>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="info">
                                             <i class="fa fa-envelope" aria-hidden="true"></i>
-                                            <p class="in-p ti">kitturweb@gmail.com</p>
+                                            <p class="in-p ti">support@findhouses.com</p>
                                         </div>
                                     </li>
                                 </ul>
@@ -261,7 +233,7 @@
         </footer>
 
         <a data-scroll href="#wrapper" class="go-up"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a>
-        END FOOTER -->
+        <!-- END FOOTER -->
 
         <!--register form -->
         <div class="login-and-register-form modal">
@@ -333,17 +305,7 @@
         <script src="js/bootstrap.min.js"></script>
         <script src="js/mmenu.min.js"></script>
         <script src="js/mmenu.js"></script>
-        <script src="js/jquery.form.js"></script>
-        <script src="js/jquery.validate.min.js"></script>
         <script src="js/smooth-scroll.min.js"></script>
-        <script src="js/forms.js"></script>
-        <script src="js/ajaxchimp.min.js"></script>
-        <script src="js/newsletter.js"></script>
-        <script src="js/leaflet.js"></script>
-        <script src="js/leaflet-gesture-handling.min.js"></script>
-        <script src="js/leaflet-providers.js"></script>
-        <script src="js/leaflet.markercluster.js"></script>
-        <script src="js/map-single.js"></script>
         <script src="js/color-switcher.js"></script>
         <script src="js/inner.js"></script>
 

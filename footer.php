@@ -30,7 +30,7 @@
                             <li>
                                 <div class="info">
                                     <i class="fa fa-envelope" aria-hidden="true"></i>
-                                    <p class="in-p ti">support@findhouses.com</p>
+                                    <p class="in-p ti">www.kitturdevelopers.com</p>
                                 </div>
                             </li>
                         </ul>
@@ -45,21 +45,19 @@
                                 <li><a href="properties-right-sidebar.html">Properties Right</a></li>
                                 <li><a href="properties-full-list.html">Properties List</a></li>
                                 <li><a href="properties-details.html">Property Details</a></li>
-                                <li class="no-mgb"><a href="agents-listing-grid.html">Agents Listing</a></li>
                             </ul>
                             <ul class="nav-right">
-                                <li><a href="agent-details.html">Agents Details</a></li>
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="blog.html">Blog Default</a></li>
+                                <li><a href="about.php">About Us</a></li>
+                                <li><a href="index.php">Home</a></li>
                                 <li><a href="blog-details.html">Blog Details</a></li>
-                                <li class="no-mgb"><a href="contact-us.html">Contact Us</a></li>
+                                <li class="no-mgb"><a href="contact-us.php">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="widget">
-                        <h3>Twitter Feeds</h3>
+                        <h3>Projects</h3>
                         <div class="twitter-widget contuct">
                             <div class="twitter-area">
                                 <div class="single-item">
@@ -67,8 +65,8 @@
                                         <i class="fa fa-twitter" aria-hidden="true"></i>
                                     </div>
                                     <div class="text">
-                                        <h5><a href="#">@findhouses</a> all share them with me baby said inspet.</h5>
-                                        <h4>about 5 days ago</h4>
+                                        <h5><a href="#"></a>NOVA City Project</h5>
+                                        <h4>Ongoing Project</h4>
                                     </div>
                                 </div>
                                 <div class="single-item">
@@ -76,16 +74,8 @@
                                         <i class="fa fa-twitter" aria-hidden="true"></i>
                                     </div>
                                     <div class="text">
-                                        <h5><a href="#">@findhouses</a> all share them with me baby said inspet.</h5>
-                                        <h4>about 5 days ago</h4>
-                                    </div>
-                                </div>
-                                <div class="single-item">
-                                    <div class="icon-holder">
-                                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                                    </div>
-                                    <div class="text">
-                                        <h5><a href="#">@findhouses</a> all share them with me baby said inspet.</h5>
+                                        <h5><a href="#">kitturweb@gmail.com</a> NOVA City Project
+                                        </h5>
                                         <h4>about 5 days ago</h4>
                                     </div>
                                 </div>
