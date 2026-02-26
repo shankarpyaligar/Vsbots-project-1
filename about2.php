@@ -43,42 +43,34 @@
     <!-- END SECTION HEADINGS -->
 
     <!-- START SECTION ABOUT -->
-    <section class="about-us fh">
+    <section class="about py-5">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-12 who-1">
-                    <div>
-                        <h2 class="text-left mb-4">About <span>Kittur Developers</span></h2>
-                    </div>
-                    <div class="pftext">
-                        <p>Kittur Developers is a trusted name in the construction arena. This team of richly
-                            experienced professionals has completed several land development projects in Hubli.
-                            We are well-established professionals in this line of activity with a common goal and
-                            mission of COMMITMENT and QUALITY.
-                            Kittur Developers proudly present Star City Phase–4, a residential layout at Sulla Road,
-                            Gopankoppa, Hubli, adorned with excellent quality and thoughtful amenities.</p>
-                    </div>
-                    <div class="box bg-2">
-                        <a href="about.html"
-                            class="text-center button button--moema button--text-thick button--text-upper button--size-s">read
-                            More</a>
-                        <img src="images/signature.png" class="ml-5" alt="">
-                    </div>
+            <div class="row align-items-center">
+
+                <!-- LEFT SIDE (TEXT) -->
+                <div class="col-lg-6">
+                    <h2 class="mb-4">About <span class="text-danger">Kittur Developers</span></h2>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Laborum odio id voluptatibus incidunt cum.
+                    </p>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Esse itaque officiis tempora possimus odio rerum.
+                    </p>
+
+                    <a href="about.php" class="btn btn-danger mt-3">
+                        Read More
+                    </a>
                 </div>
-                <div class="col-lg-6 col-md-12 col-xs-12">
-                    <div class="wprt-image-video w50">
-                        <img alt="image" src="images/bg/bg-video.jpg">
-                        <a class="icon-wrap popup-video popup-youtube"
-                            href="https://www.youtube.com/watch?v=2xHQqYRcrx4">
-                            <i class="fa fa-play"></i>
-                        </a>
-                        <div class="iq-waves">
-                            <div class="waves wave-1"></div>
-                            <div class="waves wave-2"></div>
-                            <div class="waves wave-3"></div>
-                        </div>
-                    </div>
+
+                <!-- RIGHT SIDE (IMAGE) -->
+                <div class="col-lg-6">
+                    <img src="images/bg/ab.png" style="height: 400px; width:500px" alt="">
                 </div>
+
             </div>
         </div>
     </section>
@@ -337,128 +329,11 @@
     </section>
     <!-- END SECTION AGENTS -->
 
-    <!-- START SECTION TESTIMONIALS -->
-    <section class="testimonials home18 bg-white">
-        <div class="container">
-            <div class="sec-title">
-                <h2><span>Clients </span>Testimonials</h2>
-                <p>We collect reviews from our customers.</p>
-            </div>
-            <div class="owl-carousel style1">
-                <div class="test-1 pb-0 pt-0">
-                    <img src="images/testimonials/ts-1.jpg" alt="">
-                    <h3 class="mt-3 mb-0">Lisa Smith</h3>
-                    <h6 class="mt-1">New York</h6>
-                    <ul class="starts text-center mb-2">
-                        <li><i class="fa fa-star"></i>
-                        </li>
-                        <li><i class="fa fa-star"></i>
-                        </li>
-                        <li><i class="fa fa-star"></i>
-                        </li>
-                        <li><i class="fa fa-star"></i>
-                        </li>
-                        <li><i class="fa fa-star"></i>
-                        </li>
-                    </ul>
-                    <p>Lorem ipsum dolor sit amet, ligula magna at etiam aliquip venenatis. Vitae sit felis donec,
-                        suscipit tortor et sapien donec.</p>
-                </div>
-                <div class="test-1 pb-0 pt-0">
-                    <img src="images/testimonials/ts-2.jpg" alt="">
-                    <h3 class="mt-3 mb-0">Jhon Morris</h3>
-                    <h6 class="mt-1">Los Angeles</h6>
-                    <ul class="starts text-center mb-2">
-                        <li><i class="fa fa-star"></i>
-                        </li>
-                        <li><i class="fa fa-star"></i>
-                        </li>
-                        <li><i class="fa fa-star"></i>
-                        </li>
-                        <li><i class="fa fa-star"></i>
-                        </li>
-                        <li><i class="fa fa-star-o"></i>
-                        </li>
-                    </ul>
-                    <p>Lorem ipsum dolor sit amet, ligula magna at etiam aliquip venenatis. Vitae sit felis donec,
-                        suscipit tortor et sapien donec.</p>
-                </div>
-                <div class="test-1 pt-0">
-                    <img src="images/testimonials/ts-3.jpg" alt="">
-                    <h3 class="mt-3 mb-0">Mary Deshaw</h3>
-                    <h6 class="mt-1">Chicago</h6>
-                    <ul class="starts text-center mb-2">
-                        <li><i class="fa fa-star"></i>
-                        </li>
-                        <li><i class="fa fa-star"></i>
-                        </li>
-                        <li><i class="fa fa-star"></i>
-                        </li>
-                        <li><i class="fa fa-star"></i>
-                        </li>
-                        <li><i class="fa fa-star"></i>
-                        </li>
-                    </ul>
-                    <p>Lorem ipsum dolor sit amet, ligula magna at etiam aliquip venenatis. Vitae sit felis donec,
-                        suscipit tortor et sapien donec.</p>
-                </div>
-                <div class="test-1 pt-0">
-                    <img src="images/testimonials/ts-4.jpg" alt="">
-                    <h3 class="mt-3 mb-0">Gary Steven</h3>
-                    <h6 class="mt-1">Philadelphia</h6>
-                    <ul class="starts text-center mb-2">
-                        <li><i class="fa fa-star"></i>
-                        </li>
-                        <li><i class="fa fa-star"></i>
-                        </li>
-                        <li><i class="fa fa-star"></i>
-                        </li>
-                        <li><i class="fa fa-star"></i>
-                        </li>
-                        <li><i class="fa fa-star-o"></i>
-                        </li>
-                    </ul>
-                    <p>Lorem ipsum dolor sit amet, ligula magna at etiam aliquip venenatis. Vitae sit felis donec,
-                        suscipit tortor et sapien donec.</p>
-                </div>
-                <div class="test-1 pt-0">
-                    <img src="images/testimonials/ts-5.jpg" alt="">
-                    <h3 class="mt-3 mb-0">Cristy Mayer</h3>
-                    <h6 class="mt-1">San Francisco</h6>
-                    <ul class="starts text-center mb-2">
-                        <li><i class="fa fa-star"></i>
-                        </li>
-                        <li><i class="fa fa-star"></i>
-                        </li>
-                        <li><i class="fa fa-star"></i>
-                        </li>
-                        <li><i class="fa fa-star"></i>
-                        </li>
-                        <li><i class="fa fa-star"></i>
-                        </li>
-                    </ul>
-                    <p>Lorem ipsum dolor sit amet, ligula magna at etiam aliquip venenatis. Vitae sit felis donec,
-                        suscipit tortor et sapien donec.</p>
-                </div>
-                <div class="test-1 pt-0">
-                    <img src="images/testimonials/ts-6.jpg" alt="">
-                    <h3 class="mt-3 mb-0">Ichiro Tasaka</h3>
-                    <h6 class="mt-1">Houston</h6>
-                    <ul class="starts text-center mb-2">
-                        <li><i class="fa fa-star"></i>
-                        </li>
-                        <li><i class="fa fa-star"></i>
-                        </li>
-                        <li><i class="fa fa-star"></i>
-                        </li>
-                        <li><i class="fa fa-star"></i>
-                        </li>
-                        <li><i class="fa fa-star-o"></i>
-                        </li>
-                    </ul>
-                    <p>Lorem ipsum dolor sit amet, ligula magna at etiam aliquip venenatis. Vitae sit felis donec,
-                        suscipit tortor et sapien donec.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!--Satart Testimonials-->
+    <?php include('Testimonials.php'); ?>
+    <!-- END SECTION TESTIMONIALS -->
+    <!--Footer start-->
+    <?php include('Footer.php'); ?>
+</body>
+
+</html>

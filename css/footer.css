@@ -1,203 +1,38 @@
-/* ================================
-   FOOTER MAIN STYLING
-================================ */
+/* ================= FOOTER ================= */
 
-.first-footer {
-    font-family: 'Poppins', sans-serif;
-    color: #ccc;
+.footer-section {
+    background-color: #15032e67;
+    color: #ffffff;
 }
 
-/* Top Footer */
-.top-footer {
-    padding: 70px 0;
-    background: #111;
+.footer-logo {
+    font-weight: 400;
 }
 
-.first-footer h3 {
-    color: #fff;
-    font-size: 18px;
-    margin-bottom: 25px;
+.footer-heading {
     font-weight: 600;
-}
-
-.first-footer p {
-    font-size: 14px;
-    line-height: 1.8;
-    color: #bbb;
-}
-
-/* Logo */
-.netabout img {
-    max-width: 150px;
-    margin-bottom: 20px;
-}
-
-/* Contact Section */
-.contactus ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.contactus li {
     margin-bottom: 15px;
 }
 
-.contactus .info {
-    display: flex;
-    align-items: flex-start;
-    gap: 10px;
-}
-
-.contactus i {
-    color: #ffcc00;
-    font-size: 16px;
-    margin-top: 5px;
-}
-
-.in-p {
-    margin: 0;
+.footer-text {
     font-size: 14px;
 }
 
-/* Navigation */
-.navigation ul {
+.footer-links {
     list-style: none;
     padding: 0;
 }
 
-.navigation ul li {
-    margin-bottom: 12px;
+.footer-links li {
+    margin-bottom: 8px;
 }
 
-.navigation ul li a {
-    color: #bbb;
+.footer-links a {
     text-decoration: none;
-    font-size: 14px;
-    transition: 0.3s;
-}
-
-.navigation ul li a:hover {
-    color: #ffcc00;
-    padding-left: 5px;
-}
-
-/* Twitter Section */
-.twitter-widget .single-item {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 20px;
-}
-
-.twitter-widget .icon-holder i {
-    color: #1da1f2;
-    font-size: 18px;
-}
-
-.twitter-widget .text h5 {
-    font-size: 13px;
-    margin: 0;
-    color: #bbb;
-}
-
-.twitter-widget .text h4 {
-    font-size: 12px;
-    color: #777;
-    margin-top: 5px;
-}
-
-/* Newsletter */
-.newsletters p {
-    font-size: 14px;
-    margin-bottom: 15px;
-}
-
-.email {
-    display: flex;
-    flex-direction: column;
-}
-
-.email input[type="email"] {
-    padding: 10px;
-    border: none;
-    outline: none;
-    margin-bottom: 10px;
+    color: #ffffff;
     font-size: 14px;
 }
 
-.email input[type="submit"] {
-    background: #ffcc00;
-    color: #000;
-    border: none;
-    padding: 10px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.email input[type="submit"]:hover {
-    background: #e6b800;
-}
-
-/* Bottom Footer */
-.second-footer {
-    background: #0d0d0d;
-    padding: 20px 0;
-    border-top: 1px solid #222;
-}
-
-.second-footer .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-/* Social Icons */
-.netsocials {
-    list-style: none;
-    display: flex;
-    gap: 15px;
-    padding: 0;
-    margin: 0;
-}
-
-.netsocials li a {
-    color: #bbb;
-    font-size: 16px;
-    transition: 0.3s;
-}
-
-.netsocials li a:hover {
-    color: #ffcc00;
-}
-
-/* Scroll To Top Button */
-.go-up {
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-    background: #ffcc00;
-    color: #000;
-    padding: 10px 12px;
-    border-radius: 50%;
-    font-size: 18px;
-    text-align: center;
-    transition: 0.3s;
-}
-
-.go-up:hover {
-    background: #e6b800;
-}
-
-/* ================================
-   RESPONSIVE DESIGN
-================================ */
-
-@media (max-width: 768px) {
-    .second-footer .container {
-        flex-direction: column;
-        gap: 10px;
-        text-align: center;
-    }
+.footer-line {
+    border-color: rgba(22, 6, 59, 0.3);
 }

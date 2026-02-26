@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+/* Banner */
+.contact-banner {
+    background-color: #b30000;
+    color: white;
+    padding: 70px 0;
+}
+
+.contact-banner h1 {
+    font-weight: 600;
+}
+
+/* Titles */
+.section-title {
+    color: #b30000;
+    font-weight: 600;
+}
+
+/* Contact Form */
+.contact-form-box {
+    border: 1px solid #eee;
+    padding: 30px;
+    border-radius: 6px;
+}
+
+.contact-btn {
+    background-color: #b30000;
+    color: white;
+    border: none;
+}
+
+.contact-btn:hover {
+    background-color: #8a0000;
+    color: white;
+}
+
+/* Map */
+.map-container {
+    width: 100%;
+    height: 400px;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/* CTA */
+.cta-section {
+    background-color: #b30000;
+    color: white;
+}
+
+.cta-btn {
+    background-color: white;
+    color: #b30000;
+    border: none;
+}
+
+.cta-btn:hover {
+    background-color: #f1f1f1;
+}
+
+/* ================= BIG CONTACT BANNER ================= */
+
+.contact-banner {
+    background: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c') center center/cover no-repeat;
+    height: 500px;
+    /* Big Banner Height */
+    position: relative;
+}
+
+.banner-overlay {
+    background: rgba(179, 0, 0, 0.65);
+    /* Red overlay */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-banner h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.contact-banner p {
+    font-size: 18px;
+}

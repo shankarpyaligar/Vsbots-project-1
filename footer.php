@@ -1,118 +1,68 @@
-<!-- START FOOTER -->
-<footer class="first-footer">
-    <div class="top-footer bg-black-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <div class="netabout">
-                        <a href="index.html" class="logo">
-                            <img src="images/logo-yellow.svg" alt="netcom">
-                        </a>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum incidunt architecto soluta
-                            laboriosam, perspiciatis, aspernatur officiis esse.</p>
-                    </div>
-                    <div class="contactus">
-                        <ul>
-                            <li>
-                                <div class="info">
-                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                    <p class="in-p">Office:# 10, 2nd floor, Eureka Corner, Koppikar Road,
-                                        Hubli-20</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="info">
-                                    <i class="fa fa-phone" aria-hidden="true"></i>
-                                    <p class="in-p">95388 86974</p>
-                                    <p class="in-p">98866 01044</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="info">
-                                    <i class="fa fa-envelope" aria-hidden="true"></i>
-                                    <p class="in-p ti">www.kitturdevelopers.com</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="navigation">
-                        <h3>Navigation</h3>
-                        <div class="nav-footer">
-                            <ul>
-                                <li><a href="index.html">Home One</a></li>
-                                <li><a href="properties-right-sidebar.html">Properties Right</a></li>
-                                <li><a href="properties-full-list.html">Properties List</a></li>
-                                <li><a href="properties-details.html">Property Details</a></li>
-                            </ul>
-                            <ul class="nav-right">
-                                <li><a href="about.php">About Us</a></li>
-                                <li><a href="index.php">Home</a></li>
-                                <li><a href="blog-details.html">Blog Details</a></li>
-                                <li class="no-mgb"><a href="contact-us.php">Contact Us</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="widget">
-                        <h3>Projects</h3>
-                        <div class="twitter-widget contuct">
-                            <div class="twitter-area">
-                                <div class="single-item">
-                                    <div class="icon-holder">
-                                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                                    </div>
-                                    <div class="text">
-                                        <h5><a href="#"></a>NOVA City Project</h5>
-                                        <h4>Ongoing Project</h4>
-                                    </div>
-                                </div>
-                                <div class="single-item">
-                                    <div class="icon-holder">
-                                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                                    </div>
-                                    <div class="text">
-                                        <h5><a href="#">kitturweb@gmail.com</a> NOVA City Project
-                                        </h5>
-                                        <h4>about 5 days ago</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="newsletters">
-                        <h3>Newsletters</h3>
-                        <p>Sign Up for Our Newsletter to get Latest Updates and Offers. Subscribe to receive news in
-                            your inbox.</p>
-                    </div>
-                    <form class="bloq-email mailchimp form-inline" method="post">
-                        <label for="subscribeEmail" class="error"></label>
-                        <div class="email">
-                            <input type="email" id="subscribeEmail" name="EMAIL" placeholder="Enter Your Email">
-                            <input type="submit" value="Subscribe">
-                            <p class="subscription-success"></p>
-                        </div>
-                    </form>
-                </div>
+<!-- ================= FOOTER ================= -->
+<footer class="footer-section pt-5 pb-3" style="background-color: #001440;">
+    <div class="container">
+        <div class="row">
+
+            <!-- Logo & About -->
+            <div class="col-md-4 mb-4">
+                <h4 class="footer-logo"><img src="images/logo-2.jpg" style="width:100px; height: 100px;"></h4>
+                <p class="footer-text">
+                    Delivering quality residential and commercial projects
+                    with trust and excellence.
+                </p>
             </div>
+
+            <!-- Contact Info -->
+            <div class="col-md-4 mb-4">
+                <h5 class="footer-heading">Contact Us</h5>
+
+                <p>
+                    <i class="fas fa-location-dot me-2"></i>
+                    Kittur Road, Belagavi, Karnataka
+                </p>
+
+                <p>
+                    <i class="fas fa-phone me-2"></i>
+                    +91 9876543210
+                </p>
+
+                <p>
+                    <i class="fas fa-phone me-2"></i>
+                    +91 9123456780
+                </p>
+
+                <p>
+                    <i class="fas fa-phone me-2"></i>
+                    +91 9988776655
+                </p>
+
+                <p>
+                    <i class="fas fa-envelope me-2"></i>
+                    info@dreamlandrealty.com
+                </p>
+            </div>
+
+            <!-- Navigation -->
+            <div class="col-md-4 mb-4">
+                <h5 class="footer-heading">Quick Links</h5>
+
+                <ul class="footer-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Amenities</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
         </div>
-    </div>
-    <div class="second-footer">
-        <div class="container">
-            <p>2021 © Copyright - All Rights Reserved.</p>
-            <ul class="netsocials">
-                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
-            </ul>
+
+        <hr class="footer-line">
+
+        <div class="text-center">
+            <p class="mb-0" style="background-color: black;">
+                © 2026 DreamLand Realty. All Rights Reserved.
+            </p>
         </div>
+
     </div>
 </footer>
-
-<a data-scroll href="#wrapper" class="go-up"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a>
-<!-- END FOOTER -->
