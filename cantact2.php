@@ -6,7 +6,7 @@
         <meta name="description" content="html 5 template">
         <meta name="author" content="">
         <title>Career</title>
-
+        <?php include('header.php'); ?>
 
 
 
@@ -20,8 +20,7 @@
             <!-- Header Container
         ================================================== -->
         </div>
-        <?php include('header.php'); ?>
-        <?php include('menue.php'); ?>
+
 
         <div class="single-property-4">
             <div class="container-fluid p0">

@@ -39,23 +39,20 @@
                     <h3 class="section-title mb-4">Get In Touch</h3>
 
                     <p><i class="fa-solid fa-location-dot me-2"></i>
-                        Kittur Main Road, Karnataka
+                        Eureka Corner,
+                        Koppikar Road, HUBLI-20.
                     </p>
 
-                    <p><i class="fa-solid fa-phone me-2"></i>
-                        +91 9876543210
+                    <p><i class="fa-solid fa-mobile me-2"></i>
+                        +91 95388 86974
                     </p>
 
-                    <p><i class="fa-solid fa-phone me-2"></i>
-                        +91 9123456780
-                    </p>
-
-                    <p><i class="fa-solid fa-phone me-2"></i>
-                        +91 9988776655
+                    <p><i class="fa-solid fa-mobile me-2"></i>
+                        +91 98866 01044
                     </p>
 
                     <p><i class="fa-solid fa-envelope me-2"></i>
-                        info@kitturdevelopers.com
+                        kitturweb@gmail.com
                     </p>
 
                     <p><i class="fa-solid fa-clock me-2"></i>
@@ -106,6 +103,8 @@
             </div>
         </div>
     </section>
+    <h1></h1>
+
 
 
     <!-- ================= GOOGLE MAP ================= -->
@@ -114,18 +113,6 @@
             <iframe src="https://www.google.com/maps?q=15.346705455395469,75.14248585260403&output=embed"
                 allowfullscreen="" loading="lazy">
             </iframe>
-        </div>
-    </section>
-
-
-    <!-- ================= CALL TO ACTION ================= -->
-    <section class="cta-section text-center py-5">
-        <div class="container">
-            <h3>Book a Site Visit Today</h3>
-            <p>Call us now to schedule a visit</p>
-            <a href="tel:+919876543210" class="btn cta-btn">
-                Call Now
-            </a>
         </div>
     </section>
     <!--Footer start-->

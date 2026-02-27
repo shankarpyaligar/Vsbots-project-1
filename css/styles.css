@@ -25585,3 +25585,57 @@ body {
 .sidebar ul li a:hover {
   color: #b30000;
 }
+
+.hero {
+  height: 100vh;
+}
+
+.hero img {
+  height: 100vh;
+}
+
+/* ===== MOBILE MENU ===== */
+
+.menu-toggle {
+  display: none;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+/* Default desktop */
+.nav-menu {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+/* Mobile view */
+@media (max-width: 992px) {
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #001440;
+    flex-direction: column;
+    display: none;
+    padding: 20px;
+  }
+
+  .nav-menu.active {
+    display: flex;
+  }
+
+  .header-flex {
+    position: relative;
+  }
+
+  .call-section {
+    display: none;
+  }
+}

@@ -1,6 +1,5 @@
 <!-- FAVICON -->
-<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-
+<link rel="icon" type="image/x-icon" href="images/favicon.jpg">
 <!-- CSS Files -->
 <link rel="stylesheet" href="css/jquery-ui.css">
 
@@ -36,6 +35,8 @@
 <link rel="stylesheet" href="css/menue.css">
 <link rel="stylesheet" href="css/header.css">
 <link rel="stylesheet" href="css/footer.css">
+<link rel="stylesheet" href="css/project.css">
+<link rel="stylesheet" href="css/menue.css">
 <!-- Bootstrap 5 CDN -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -49,5 +50,5 @@
 
 <!-- Font Awesome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>

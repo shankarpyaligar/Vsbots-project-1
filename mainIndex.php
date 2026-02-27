@@ -1,126 +1,101 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
 
 <head>
-
-    <meta name="description" content="html 5 template">
-    <meta name="author" content="">
+    <meta charset="UTF-8">
     <title>Kittur Developers</title>
-    <?php include('header.php') ?>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <?php include('header.php'); ?>
     <style>
-        <style>
-        /* ===== MAKE SLIDER FULL SCREEN ===== */
-
-        .rev_slider,
-        .rev_slider_wrapper,
-        .rev_slider_wrapper .rev_slider {
-            width: 100% !important;
-            max-width: 100% !important;
+        body {
+            font-family: Arial, sans-serif;
         }
 
-        .rev_slider .rev-slidebg {
-            width: 100% !important;
-            height: 100vh !important;
-            object-fit: cover !important;
+        /* ===== HEADER ===== */
+        .navbar {
+            background: #001440;
         }
 
-        /* Remove unwanted side borders */
-        .tp-caption.tp-shapewrapper[style*="border-left"],
-        .tp-caption.tp-shapewrapper[style*="border-bottom"] {
-            display: none !important;
+        .navbar a {
+            color: #fff !important;
         }
 
-        /* Remove extra white spacing */
-        body,
-        html {
-            margin: 0;
-            padding: 0;
-            overflow-x: hidden;
+        /* ===== HERO SECTION ===== */
+        .hero {
+            position: relative;
+            min-height: 100vh;
+            overflow: hidden;
+        }
+
+        .hero img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .hero-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
+        }
+
+        .hero-overlay {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        /* ===== SECTION SPACING ===== */
+        section {
+            padding: 15px 0;
+        }
+
+        /* ===== FOOTER ===== */
+        footer {
+            background: #001440;
+            color: white;
+            padding: 50px 0;
+        }
+
+        .copyright {
+            background: #000;
+            color: #fff;
+            padding: 25px 0;
+            text-align: center;
+        }
+
+        .info-help {
+            min-height: 500px;
+            padding: 80px 0;
+            background-size: cover !important;
         }
     </style>
-    </style>
-
 </head>
 
-<body class="int_white_bg h19 homepage-5 homepage-19">
-    <!-- Wrapper -->
-    <div id="wrapper" class="int_main_wraapper">
-        <!-- START SECTION HEADINGS -->
-        <!-- Header Container
-        ================================================== -->
-        <header id="header-container" class="header head-tr">
-            <!-- Header -->
-            <div id="header" class="head-tr bottom">
-                <div class="container container-header">
-                    <!-- Left Side Content -->
-                    <div class="left-side">
-                        <!-- Logo -->
-                        <div id="logo">
-                            <a href="index.html"><img src="images/logo.jpg" data-sticky-logo="images/logo.jpeg"
-                                    alt=""></a>
-                        </div>
-                        <!-- Mobile Navigation -->
-                        <div class="mmenu-trigger">
-                            <button class="hamburger hamburger--collapse" type="button">
-                                <span class="hamburger-box">
-                                    <span class="hamburger-inner"></span>
-                                </span>
-                            </button>
-                        </div>
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <?php include('menue.php'); ?>
 
 
-                    </div>
-                    <?php include('menue.php'); ?>
-                    <!-- Left Side Content / End -->
+    <!-- ================= HERO SECTION ================= -->
+    <section class="hero">
+        <img src="images/bg1-img.png" alt="Banner" style="width: auto; height: auto;">
+        <div class="hero-overlay"></div>
 
-                    <!-- Right Side Content / End -->
-                    <div class="right-side d-none d-none d-lg-none d-xl-flex">
-                        <!-- Header Widget -->
-                        <div class="header-widget">
-                            <!-- <a href="add-property.html" class="button border">Add Listing<i class="fas fa-laptop-house ml-2"></i></a>-->
-                        </div>
-                    </div>
-                </div>
-            </div>
-    </div>
-    <!-- Header / End -->
-
-    </header>
-    <div class="clearfix"></div>
-    <!-- Header Container / End -->
-
-    <!-- SLIDER START -->
-
-    <div id="rev_slider_26_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.4.1">
-        <ul>
-
-            <!-- SLIDE 1 -->
-            <li data-index="rs-73" data-transition="fade" data-masterspeed="300">
-
-                <!-- MAIN IMAGE -->
-                <img src="images/bg1-img.png">
+    </section>
 
 
-            </li>
-
-
-        </ul>
-        <div class="tp-bannertimer"></div>
-        <!-- left side social bar-->
-        <div class="slide-left-social">
-            <ul class="clearfix">
-                <li><a href="#" class="sx-title-swip" data-hover="Linkedin">Linkedin</a></li>
-                <li><a href="#" class="sx-title-swip" data-hover="Twitter">Twitter</a></li>
-                <li><a href="#" class="sx-title-swip" data-hover="Facebook">Facebook</a></li>
-            </ul>
-        </div>
-
-    </div>
-    </div>
-    <!-- SLIDER END -->
-
-
-    <h1> </h1>
     <!--About Secrion-->
     <section class="about py-5">
         <div class="container">
@@ -149,16 +124,13 @@
 
                 <!-- RIGHT SIDE (IMAGE) -->
                 <div class="col-lg-6">
-                    <img src="images/bg/ab.png" style="width: 500px; height: 400px;">
+                    <img src="images/bg/ab.png" class="img-fluid">
                 </div>
 
             </div>
         </div>
     </section>
     <!--About section end-->
-
-
-
 
     <!-- Priject section start-->
     <section class="team bg-white-3">
@@ -220,6 +192,8 @@
     <!--project section end-->
 
 
+
+
     <!-- START SECTION COUNTER UP -->
     <section class="counterup">
         <div class="">
@@ -265,8 +239,6 @@
         </div>
     </section>
     <!-- END SECTION COUNTER UP -->
-
-
 
     <!-- START SECTION TESTIMONIALS -->
     <section class="testimonials home18 bg-white">
@@ -394,6 +366,8 @@
         </div>
     </section>
     <!-- END SECTION TESTIMONIALS -->
+
+
     <!-- START SECTION WHY CHOOSE US -->
     <section class="how-it-works bg-white-2">
         <div class="container">
@@ -442,12 +416,8 @@
         </div>
     </section>
     <!-- END SECTION WHY CHOOSE US -->
-
-
-
-
     <!-- START SECTION INFO-HELP -->
-    <section class="info-help h17" style="height: 500px; 
+    <section class="info-help h17" style="
             background-image: url('images/house.jpg'); 
             background-size: auto 150%; 
             background-position: center; 
@@ -496,7 +466,6 @@
             </div>
         </div>
     </div>
-    <!-- END SECTION PARTNERS -->
 
     <!-- START FOOTER -->
     <?php include 'footer.php'; ?>
@@ -566,314 +535,95 @@
     </div>
     <!--register form end -->
 
-    <!-- START PRELOADER -->
-    <div id="preloader">
-        <div id="status">
-            <div class="status-mes"></div>
-        </div>
-    </div>
-    <!-- END PRELOADER -->
+    <!-- ================= REQUIRED JS ================= -->
 
-    <!-- ARCHIVES JS -->
+    <!-- 1️⃣ jQuery (Load FIRST, Only Once) -->
     <script src="js/jquery-3.5.1.min.js"></script>
-    <script src="js/jquery-ui.js"></script>
-    <script src="js/tether.min.js"></script>
-    <script src="js/moment.js"></script>
+
+    <!-- 2️⃣ Bootstrap -->
+    <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
+    <!-- 3️⃣ Core Plugins -->
     <script src="js/mmenu.min.js"></script>
-    <script src="js/mmenu.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/aos2.js"></script>
-    <script src="js/swiper.min.js"></script>
-    <script src="js/swiper.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/slick.js"></script>
-    <script src="js/fitvids.js"></script>
+    <script src="js/owl.carousel.js"></script>
     <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/jquery.counterup.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/smooth-scroll.min.js"></script>
-    <script src="js/lightcase.js"></script>
-    <script src="js/search.js"></script>
-    <script src="js/owl.carousel.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/ajaxchimp.min.js"></script>
-    <script src="js/newsletter.js"></script>
-    <script src="js/jquery.form.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/searched.js"></script>
-    <script src="js/forms-2.js"></script>
-    <script src="js/color-switcher.js"></script>
-    <script>
-        $(window).on('scroll load', function () {
-            $("#header.cloned #logo img").attr("src", $('#header #logo img').attr('data-sticky-logo'));
-        });
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/aos.js"></script>
 
-
-    </script>
-
-    <!-- Slider Revolution scripts -->
+    <!-- 4️⃣ Revolution Slider -->
     <script src="revolution/js/jquery.themepunch.tools.min.js"></script>
     <script src="revolution/js/jquery.themepunch.revolution.min.js"></script>
     <script src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
     <script src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
     <script src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
     <script src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
     <script src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-    <script src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-    <script src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-    <script src="revolution/js/extensions/revolution.extension.video.min.js"></script>
 
+    <!-- 5️⃣ Initialize Plugins -->
     <script>
-        var tpj = jQuery;
-        var revapi26;
-        tpj(document).ready(function () {
-            if (tpj("#rev_slider_26_1").revolution == undefined) {
-                revslider_showDoubleJqueryError("#rev_slider_26_1");
-            } else {
-                revapi26 = tpj("#rev_slider_26_1").show().revolution({
-                    sliderType: "standard",
-                    jsFileLocation: "revolution/js/",
-                    sliderLayout: "fullscreen",
-                    dottedOverlay: "none",
-                    delay: 5000,
-                    navigation: {
-                        keyboardNavigation: "off",
-                        keyboard_direction: "horizontal",
-                        mouseScrollNavigation: "off",
-                        mouseScrollReverse: "default",
-                        onHoverStop: "off",
-                        touch: {
-                            touchenabled: "on",
-                            touchOnDesktop: "off",
-                            swipe_threshold: 75,
-                            swipe_min_touches: 50,
-                            swipe_direction: "horizontal",
-                            drag_block_vertical: false
-                        },
+        $(document).ready(function () {
 
-                        arrows: {
-                            style: "metis",
-                            enable: true,
-                            hide_onmobile: false,
-                            hide_onleave: false,
-                            tmp: '',
-                            left: {
-                                h_align: "right",
-                                v_align: "bottom",
-                                h_offset: 80,
-                                v_offset: 10
-                            },
-                            right: {
-                                h_align: "right",
-                                v_align: "bottom",
-                                h_offset: 10,
-                                v_offset: 10
-                            }
-                        },
-                        bullets: {
-                            enable: false,
-                            hide_onmobile: false,
-                            style: "bullet-bar",
-                            hide_onleave: false,
-                            direction: "horizontal",
-                            h_align: "right",
-                            v_align: "bottom",
-                            h_offset: 30,
-                            v_offset: 30,
-                            space: 5,
-                            tmp: ''
-                        }
-                    },
-                    responsiveLevels: [1240, 1024, 778, 480],
-                    visibilityLevels: [1240, 1024, 778, 480],
-                    gridwidth: [1270, 1024, 778, 480],
-                    gridheight: [729, 600, 600, 480],
-                    lazyType: "smart",
-                    parallax: {
-                        type: "scroll",
-                        origo: "slidercenter",
-                        speed: 2000,
-                        levels: [5, 10, 15, 20, 25, 30, 35, 40, 45, 46, 47, 48, 49, 50, 51, 55],
-                    },
-                    shadow: 0,
-                    spinner: "off",
-                    stopLoop: "off",
-                    stopAfterLoops: -1,
-                    stopAtSlide: -1,
-                    shuffle: "off",
-                    autoHeight: "off",
-                    fullScreenAutoWidth: "off",
-                    fullScreenAlignForce: "off",
-                    fullScreenOffsetContainer: ".site-header",
-                    fullScreenOffset: "0px",
-                    hideThumbsOnMobile: "off",
-                    hideSliderAtLimit: 0,
-                    hideCaptionAtLimit: 0,
-                    hideAllCaptionAtLilmit: 0,
-                    debugMode: false,
-                    fallbacks: {
-                        simplifyAll: "off",
-                        nextSlideOnWindowFocus: "off",
-                        disableFocusListener: false,
-                    }
-                });
-            }
-        }); /*ready*/
-
-    </script>
-    <!-- ARCHIVES JS -->
-    <script src="js/jquery-3.5.1.min.js"></script>
-    <script src="js/tether.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/mmenu.min.js"></script>
-    <script src="js/mmenu.js"></script>
-    <script src="js/smooth-scroll.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/popup.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <script src="js/counterup.js"></script>
-    <script src="js/owl.carousel.js"></script>
-    <script src="js/ajaxchimp.min.js"></script>
-    <script src="js/newsletter.js"></script>
-    <script src="js/color-switcher.js"></script>
-    <script src="js/inner.js"></script>
-
-    <script>
-        $(window).on('load', function () {
-            $('.home5-right-slider').owlCarousel({
-                loop: true,
-                smartSpeed: 800
-            });
-        });
-        $('.home5-right-slider').owlCarousel({
-            loop: true,
-            margin: 30,
-            dots: false,
-            nav: true,
-            rtl: false,
-            autoplayHoverPause: false,
-            autoplay: false,
-            singleItem: true,
-            smartSpeed: 1200,
-            navText: ["<i class='fas fa-long-arrow-alt-left'></i>", "<i class='fas fa-long-arrow-alt-right'></i>"],
-            responsive: {
-                0: {
-                    items: 1,
-                    center: false
-                },
-                480: {
-                    items: 1,
-                    center: false
-                },
-                520: {
-                    items: 2,
-                    center: false
-                },
-                600: {
-                    items: 2,
-                    center: false
-                },
-                768: {
-                    items: 2
-                },
-                992: {
-                    items: 3
-                },
-                1200: {
-                    items: 5
-                },
-                1366: {
-                    items: 5
-                },
-                1400: {
-                    items: 5
-                }
-            }
-        });
-        <script>
+            /* ===== Owl Carousel ===== */
             $('.style1').owlCarousel({
                 loop: true,
-            margin: 10,
-            autoplay: false,
-            autoplayTimeout: 5000,
-            responsive: {
-                0: {
-                items: 1
-                    },
-            400: {
+                margin: 10,
                 items: 1,
-            margin: 20
-                    },
-            500: {
-                items: 1,
-            margin: 20
-                    },
-            768: {
-                items: 1,
-            margin: 20
-                    },
-            991: {
-                items: 1,
-            margin: 20
-                    },
-            1000: {
-                items: 1,
-            margin: 20
-                    }
-                }
+                autoplay: true,
+                autoplayTimeout: 4000
             });
 
-    </script>
-    <script>
             $('.style2').owlCarousel({
                 loop: true,
-            margin: 0,
-            dots: false,
-            autoWidth: false,
-            autoplay: true,
-            autoplayTimeout: 5000,
-            responsive: {
-                0: {
-                items: 2,
-            margin: 20
-                    },
-            400: {
-                items: 2,
-            margin: 20
-                    },
-            500: {
-                items: 3,
-            margin: 20
-                    },
-            768: {
-                items: 4,
-            margin: 20
-                    },
-            992: {
-                items: 5,
-            margin: 20
-                    },
-            1000: {
-                items: 6,
-            margin: 20
-                    }
+                margin: 20,
+                autoplay: true,
+                responsive: {
+                    0: { items: 2 },
+                    600: { items: 3 },
+                    1000: { items: 5 }
                 }
             });
 
+            /* ===== Counter ===== */
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+
+            /* ===== AOS Animation ===== */
+            AOS.init();
+
+        });
+
+
+        /* ===== Revolution Slider Init ===== */
+        var tpj = jQuery;
+        var revapi;
+
+        tpj(document).ready(function () {
+            if (tpj("#rev_slider_26_1").revolution !== undefined) {
+                revapi = tpj("#rev_slider_26_1").show().revolution({
+                    sliderType: "standard",
+                    sliderLayout: "fullscreen",
+                    delay: 5000,
+                    navigation: {
+                        arrows: { enable: true }
+                    },
+                    responsiveLevels: [1240, 1024, 778, 480],
+                    gridwidth: [1270, 1024, 778, 480],
+                    gridheight: [729, 600, 600, 480]
+                });
+            }
+        });
     </script>
 
-    </script>
-
-    <!-- MAIN JS -->
+    <!-- 6️⃣ Main Custom Script -->
     <script src="js/script.js"></script>
-
-    </div>
-    <!-- Wrapper / End -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

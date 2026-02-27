@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Projects | DreamLand Realty</title>
+    <title>Projects | Nova City</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <?php include('header.php'); ?>
@@ -30,15 +30,14 @@
     <section class="py-5 bg-light">
         <div class="container">
 
-            <h2 class="text-center text-danger mb-5">Ongoing Projects</h2>
+            <h2 class="text-center text-danger mb-5">Current Projects</h2>
 
             <div class="row">
                 <div class="col-12">
                     <div class="card">
 
                         <!-- Full Width Image -->
-                        <img src="images/house.jpg" class="img-fluid"
-                            style="width:100%; height:400px; object-fit:cover;">
+                        <img src="images/house.jpg" class="img-fluid w-100" style="object-fit:cover;">
 
                         <div class="card-body">
                             <h4>Smart Residency Phase 1</h4>
@@ -68,8 +67,8 @@
             <div class="row text-center g-4">
 
                 <!-- Amenity 1 -->
-                <div class="col-md-4 col-lg-3">
-                    <div class="p-4 border rounded">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="p-4 border rounded amenity-card">
                         <div class="mb-3 fs-1 text-danger"></div>
                         <h5>Swimming Pool</h5>
                         <p class="small text-muted">
@@ -79,8 +78,8 @@
                 </div>
 
                 <!-- Amenity 2 -->
-                <div class="col-md-4 col-lg-3">
-                    <div class="p-4 border rounded">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="p-4 border rounded amenity-card">
                         <div class="mb-3 fs-1 text-danger"></div>
                         <h5>Gym Facility</h5>
                         <p class="small text-muted">
@@ -90,8 +89,8 @@
                 </div>
 
                 <!-- Amenity 3 -->
-                <div class="col-md-4 col-lg-3">
-                    <div class="p-4 border rounded">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="p-4 border rounded amenity-card">
                         <div class="mb-3 fs-1 text-danger"></div>
                         <h5>Garden Area</h5>
                         <p class="small text-muted">
@@ -101,8 +100,8 @@
                 </div>
 
                 <!-- Amenity 4 -->
-                <div class="col-md-4 col-lg-3">
-                    <div class="p-4 border rounded">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="p-4 border rounded amenity-card">
                         <div class="mb-3 fs-1 text-danger"></div>
                         <h5>Parking Space</h5>
                         <p class="small text-muted">
@@ -112,8 +111,8 @@
                 </div>
 
                 <!-- Amenity 5 -->
-                <div class="col-md-4 col-lg-3">
-                    <div class="p-4 border rounded">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="p-4 border rounded amenity-card">
                         <div class="mb-3 fs-1 text-danger"></div>
                         <h5>24/7 Security</h5>
                         <p class="small text-muted">
@@ -123,8 +122,8 @@
                 </div>
 
                 <!-- Amenity 6 -->
-                <div class="col-md-4 col-lg-3">
-                    <div class="p-4 border rounded">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="p-4 border rounded amenity-card">
                         <div class="mb-3 fs-1 text-danger"></div>
                         <h5>Power Backup</h5>
                         <p class="small text-muted">
@@ -134,8 +133,8 @@
                 </div>
 
                 <!-- Amenity 7 -->
-                <div class="col-md-4 col-lg-3">
-                    <div class="p-4 border rounded">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="p-4 border rounded amenity-card">
                         <div class="mb-3 fs-1 text-danger"></div>
                         <h5>Clubhouse</h5>
                         <p class="small text-muted">
@@ -145,8 +144,8 @@
                 </div>
 
                 <!-- Amenity 8 -->
-                <div class="col-md-4 col-lg-3">
-                    <div class="p-4 border rounded">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="p-4 border rounded amenity-card">
                         <div class="mb-3 fs-1 text-danger"></div>
                         <h5>Water Supply</h5>
                         <p class="small text-muted">
@@ -199,13 +198,6 @@
 
         </div>
     </section>
-
-    <h1>
-
-    </h1>
-    <h1>
-
-    </h1>
     <!-- ===== FOOTER ===== -->
     <?php include('footer.php'); ?>
 

@@ -60,7 +60,7 @@ body {
 
 .cover-section {
     width: 100%;
-    height: 400px;
+    min-height: 50vh;
     background: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c') center center/cover no-repeat;
     position: relative;
 }
@@ -148,7 +148,7 @@ body {
 /* Banner */
 .project-banner {
     background: url('https://images.unsplash.com/photo-1599423300746-b62533397364') center center/cover no-repeat;
-    height: 400px;
+    min-height: 50vh;
     position: relative;
 }
 
@@ -173,4 +173,42 @@ body {
     width: 100%;
     height: 300px;
     object-fit: cover;
+}
+
+/* ===== AMENITY HOVER EFFECT ===== */
+
+.amenity-card {
+    transition: all 0.3s ease;
+    background: #fff;
+    cursor: pointer;
+}
+
+.amenity-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    border-color: #dc3545 !important;
+    /* Bootstrap danger red */
+}
+
+.amenity-card h5 {
+    transition: color 0.3s ease;
+}
+
+.amenity-card:hover h5 {
+    color: #dc3545;
+}
+
+@media (max-width: 768px) {
+
+    section {
+        padding: 50px 0;
+    }
+
+    .cover-section {
+        min-height: 40vh;
+    }
+
+    .status-box h3 {
+        font-size: 20px;
+    }
 }

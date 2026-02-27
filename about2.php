@@ -8,6 +8,26 @@
     <title>Career</title>
 
 
+    <style>
+        @media (max-width: 768px) {
+
+            .about {
+                text-align: center;
+            }
+
+            .about img {
+                margin-top: 20px;
+            }
+
+            .sec-title h2 {
+                font-size: 24px;
+            }
+
+            .team-wrap {
+                margin-bottom: 30px;
+            }
+        }
+    </style>
 
 
 
@@ -68,13 +88,16 @@
 
                 <!-- RIGHT SIDE (IMAGE) -->
                 <div class="col-lg-6">
-                    <img src="images/bg/ab.png" style="height: 400px; width:500px" alt="">
+                    <img src="images/bg/ab.png" class="img-fluid" alt="">
                 </div>
 
             </div>
         </div>
     </section>
     <!-- END SECTION ABOUT -->
+
+
+    <!--Vision and mission start-->
     <div style="padding:60px 20px; background-color:#f8f9fa; text-align:center;">
 
         <h2 style="font-size:32px; color:#2c3e50; margin-bottom:40px;">
@@ -118,6 +141,9 @@
         </div>
 
     </div>
+    <!--end vission and misiion-->
+
+
     <!-- START SECTION WHY CHOOSE US -->
     <section class="how-it-works bg-white-2">
         <div class="container">
@@ -166,52 +192,6 @@
         </div>
     </section>
     <!-- END SECTION WHY CHOOSE US -->
-
-    <!-- START SECTION COUNTER UP -->
-    <section class="counterup">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 col-xs-12">
-                    <div class="countr">
-                        <i class="fa fa-home" aria-hidden="true"></i>
-                        <div class="count-me">
-                            <p class="counter text-left">300</p>
-                            <h3>Sold Houses</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-xs-12">
-                    <div class="countr">
-                        <i class="fa fa-list" aria-hidden="true"></i>
-                        <div class="count-me">
-                            <p class="counter text-left">400</p>
-                            <h3>Daily Listings</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-xs-12">
-                    <div class="countr mb-0">
-                        <i class="fa fa-users" aria-hidden="true"></i>
-                        <div class="count-me">
-                            <p class="counter text-left">250</p>
-                            <h3>Expert Agents</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-xs-12">
-                    <div class="countr mb-0 last">
-                        <i class="fa fa-trophy" aria-hidden="true"></i>
-                        <div class="count-me">
-                            <p class="counter text-left">200</p>
-                            <h3>Won Awars</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- END SECTION COUNTER UP -->
-
     <!-- START SECTION AGENTS -->
     <section class="team">
         <div class="container">
@@ -334,6 +314,8 @@
     <!-- END SECTION TESTIMONIALS -->
     <!--Footer start-->
     <?php include('Footer.php'); ?>
+
+
 </body>
 
 </html>
