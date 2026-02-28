@@ -69,3 +69,82 @@
 .table-bordered th {
     border: 1px solid #e5e5e5;
 }
+
+/* ===== Career Table Responsive Fix ===== */
+
+.crousal {
+    margin-top: 30px;
+}
+
+.table th,
+.table td {
+    font-size: 14px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.table .submit {
+    padding: 6px 12px;
+    font-size: 13px;
+    border-radius: 5px;
+    border: none;
+    background: #c40000;
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.table .submit:hover {
+    background: #000;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 768px) {
+
+    .table th,
+    .table td {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .table .submit {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+}
+
+#wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+}
+
+/* Prevent table from breaking layout */
+.table-responsive {
+    overflow-x: auto;
+}
+
+/* Make table minimum width */
+.table {
+    min-width: 600px;
+}
+
+/* Smaller text for mobile */
+@media (max-width: 768px) {
+
+    .table th,
+    .table td {
+        font-size: 12px;
+        padding: 6px;
+        white-space: nowrap;
+        /* Prevent text breaking */
+    }
+
+    .btn-sm {
+        font-size: 11px;
+        padding: 4px 8px;
+    }
+}

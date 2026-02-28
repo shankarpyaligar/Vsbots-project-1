@@ -16,14 +16,15 @@
     <!-- ===== NAVBAR END ===== -->
 
     <!-- ================= COVER SECTION ================= -->
-    <section class="cover-section">
-        <div class="cover-overlay text-center text-white d-flex align-items-center justify-content-center">
-            <div>
-                <h1>Our Real Estate Projects</h1>
-                <p>Completed & Ongoing Developments</p>
+    <section class="project-banner">
+        <div class="">
+            <div class="container text-center text-white">
+                <h1>Royal Villas</h1>
+                <p>Successfully Delivered in 2025</p>
             </div>
         </div>
     </section>
+
 
     <!-- ================= ONGOING PROJECTS ================= -->
     <!-- ================= ONGOING PROJECTS ================= -->

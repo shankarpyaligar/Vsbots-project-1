@@ -2,10 +2,12 @@
 <html lang="zxx">
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/career.css">
     <meta name="description" content="html 5 template">
     <meta name="author" content="">
     <title>Career</title>
+    <link rel="stylesheet" href="css/about2.css">
 
 
     <style>
@@ -26,6 +28,41 @@
             .team-wrap {
                 margin-bottom: 30px;
             }
+        }
+
+        .why-box {
+            padding: 25px 20px;
+            background: #ffffff;
+            border-radius: 10px;
+            transition: 0.3s ease;
+            height: 100%;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        .why-box img {
+            width: 40px;
+            /* small icon */
+            margin-bottom: 12px;
+        }
+
+        .why-box h5 {
+            font-size: 16px;
+            /* smaller heading */
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .why-box p {
+            font-size: 13px;
+            /* smaller paragraph */
+            color: #666;
+            line-height: 1.5;
+        }
+
+        /* Hover Effect */
+        .why-box:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.08);
         }
     </style>
 
@@ -96,102 +133,117 @@
     </section>
     <!-- END SECTION ABOUT -->
 
-
-    <!--Vision and mission start-->
-    <div style="padding:60px 20px; background-color:#f8f9fa; text-align:center;">
-
-        <h2 style="font-size:32px; color:#2c3e50; margin-bottom:40px;">
-            Our Vision & Mission
-        </h2>
-
-        <div style="display:flex; justify-content:center; gap:30px; flex-wrap:wrap;">
-
-            <!-- Vision Card -->
-            <div style="width:400px; background:white; padding:30px; 
-                    border-radius:10px; 
-                    box-shadow:0 6px 15px rgba(0,0,0,0.1);">
-
-                <h3 style="color:red; margin-bottom:15px;">
-                    🌍 Our Vision
-                </h3>
-
-                <p style="color:#555; line-height:1.6;">
-                    To become the most trusted real estate company, helping
-                    families find their dream homes and investors secure
-                    profitable property opportunities.
-                </p>
+    <!-- START SECTION VISION & MISSION -->
+    <section class="vision-mission py-5">
+        <div class="container">
+            <div class="sec-title text-center mb-5">
+                <h2><span>Our </span>Vision & Mission</h2>
+                <p>Committed to trust, growth and long-term value.</p>
             </div>
 
-            <!-- Mission Card -->
-            <div style="width:400px; background:white; padding:30px; 
-                    border-radius:10px; 
-                    box-shadow:0 6px 15px rgba(0,0,0,0.1);">
+            <div class="row justify-content-center">
 
-                <h3 style="color:red; margin-bottom:15px;">
-                    🎯 Our Mission
-                </h3>
+                <!-- Vision -->
+                <div class="col-lg-6 col-md-6 mb-4">
+                    <div class="vm-frame text-center">
+                        <i class="fa fa-eye"></i>
+                        <h5>Our Vision</h5>
+                        <p>
+                            To become the most trusted real estate company,
+                            helping families find their dream homes and
+                            investors secure profitable opportunities.
+                        </p>
+                    </div>
+                </div>
 
-                <p style="color:#555; line-height:1.6;">
-                    To provide transparent, reliable, and customer-focused
-                    real estate services while ensuring smooth and secure
-                    property transactions for every client.
-                </p>
+                <!-- Mission -->
+                <div class="col-lg-6 col-md-6 mb-4">
+                    <div class="vm-frame text-center">
+                        <i class="fa fa-bullseye"></i>
+                        <h5>Our Mission</h5>
+                        <p>
+                            To provide transparent, reliable, and customer-focused
+                            real estate services while ensuring smooth and secure
+                            property transactions.
+                        </p>
+                    </div>
+                </div>
+
             </div>
-
         </div>
-
-    </div>
-    <!--end vission and misiion-->
-
+    </section>
+    <!-- END SECTION VISION & MISSION -->
 
     <!-- START SECTION WHY CHOOSE US -->
-    <section class="how-it-works bg-white-2">
+    <section class="how-it-works bg-white-2 py-5">
         <div class="container">
-            <div class="sec-title">
-                <h2><span>Why </span>Choose Us</h2>
+            <div class="sec-title text-center mb-5">
+                <h2><span style="color:#FF385C;">Our </span>Vision & Mission</h2>
                 <p>We provide full service at every step.</p>
             </div>
-            <div class="row service-1">
-                <article class="col-lg-4 col-md-6 col-xs-12 serv" data-aos="fade-up">
-                    <div class="serv-flex">
-                        <div class="art-1 img-13">
-                            <img src="images/icons/icon-4.svg" alt="">
-                            <h3>Wide Renge Of Properties</h3>
-                        </div>
-                        <div class="service-text-p">
-                            <p class="text-center">lorem ipsum dolor sit amet, consectetur pro adipisici consectetur
-                                debits adipisicing lacus consectetur Business Directory.</p>
-                        </div>
+
+            <div class="row">
+
+                <!-- 1 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="why-box text-center">
+                        <img src="images/icons/icon-4.svg" alt="">
+                        <h5>Trusted Experience</h5>
+                        <p>Over 16 years of delivering well-planned residential layouts with reliability and
+                            consistency.</p>
                     </div>
-                </article>
-                <article class="col-lg-4 col-md-6 col-xs-12 serv" data-aos="fade-up">
-                    <div class="serv-flex">
-                        <div class="art-1 img-14">
-                            <img src="images/icons/icon-5.svg" alt="">
-                            <h3>Trusted by thousands</h3>
-                        </div>
-                        <div class="service-text-p">
-                            <p class="text-center">lorem ipsum dolor sit amet, consectetur pro adipisici consectetur
-                                debits adipisicing lacus consectetur Business Directory.</p>
-                        </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="why-box text-center">
+                        <img src="images/icons/icon-5.svg" alt="">
+                        <h5>Clear Documentation</h5>
+                        <p>Complete legal transparency and proper approvals for safe, secure investments.</p>
                     </div>
-                </article>
-                <article class="col-lg-4 col-md-6 col-xs-12 serv mb-0 pt" data-aos="fade-up">
-                    <div class="serv-flex arrow">
-                        <div class="art-1 img-15">
-                            <img src="images/icons/icon-6.svg" alt="">
-                            <h3>Financing made easy</h3>
-                        </div>
-                        <div class="service-text-p">
-                            <p class="text-center">lorem ipsum dolor sit amet, consectetur pro adipisici consectetur
-                                debits adipisicing lacus consectetur Business Directory.</p>
-                        </div>
+                </div>
+
+                <!-- 3 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="why-box text-center">
+                        <img src="images/icons/icon-6.svg" alt="">
+                        <h5>Quality Infrastructure</h5>
+                        <p>Well-developed layouts with strong infrastructure and thoughtful planning.</p>
                     </div>
-                </article>
+                </div>
+
+                <!-- 4 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="why-box text-center">
+                        <img src="images/icons/icon-4.svg" alt="">
+                        <h5>Timely Delivery</h5>
+                        <p>Projects completed on schedule with professional execution.</p>
+                    </div>
+                </div>
+
+                <!-- 5 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="why-box text-center">
+                        <img src="images/icons/icon-5.svg" alt="">
+                        <h5>Customer First Approach</h5>
+                        <p>Focused on satisfaction, clear communication, and long-term relationships.</p>
+                    </div>
+                </div>
+
+                <!-- 6 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="why-box text-center">
+                        <img src="images/icons/icon-6.svg" alt="">
+                        <h5>Secure Investment</h5>
+                        <p>Designed to offer lasting value and strong future growth potential.</p>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
     <!-- END SECTION WHY CHOOSE US -->
+
     <!-- START SECTION AGENTS -->
     <section class="team">
         <div class="container">
@@ -203,7 +255,7 @@
                 <div class="col-lg-3 col-md-6 team-pro">
                     <div class="team-wrap">
                         <div class="team-img">
-                            <img src="images/team/t-5.jpg" alt="" />
+                            <img src="images/man.webp" alt="" />
                         </div>
                         <div class="team-content">
                             <div class="team-info">
@@ -229,7 +281,7 @@
                 <div class="col-lg-3 col-md-6 team-pro">
                     <div class="team-wrap">
                         <div class="team-img">
-                            <img src="images/team/t-6.jpg" alt="" />
+                            <img src="images/man.webp" alt="" />
                         </div>
                         <div class="team-content">
                             <div class="team-info">
@@ -255,7 +307,7 @@
                 <div class="col-lg-3 col-md-6 team-pro pb-none">
                     <div class="team-wrap">
                         <div class="team-img">
-                            <img src="images/team/t-7.jpg" alt="" />
+                            <img src="images/man.webp" alt="" />
                         </div>
                         <div class="team-content">
                             <div class="team-info">
@@ -281,7 +333,7 @@
                 <div class="col-lg-3 col-md-6 team-pro kat">
                     <div class="team-wrap">
                         <div class="team-img">
-                            <img src="images/team/t-8.jpg" alt="" />
+                            <img src="images/man.webp" alt="" />
                         </div>
                         <div class="team-content">
                             <div class="team-info">

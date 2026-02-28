@@ -1923,3 +1923,77 @@ em.mm-counter+a.mm-fullsubopen+span {
     background: #dec7c7;
     color: #ffffff;
 }
+
+/* Default Nav */
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.nav-menu li {
+    position: relative;
+}
+
+/* Dropdown */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background: #fff;
+    top: 100%;
+    left: 0;
+    min-width: 200px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Mobile Style */
+.menu-toggle {
+    display: none;
+    font-size: 28px;
+    background: none;
+    border: none;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+
+    .menu-toggle {
+        display: block;
+        cursor: pointer;
+    }
+
+    .nav-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: white;
+        flex-direction: column;
+        display: none;
+        padding: 20px 0;
+        z-index: 9999;
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .nav-menu li {
+        text-align: center;
+        padding: 12px 0;
+    }
+
+    .dropdown-menu {
+        position: static;
+        box-shadow: none;
+        display: none;
+    }
+
+    .dropdown-menu.show {
+        display: block;
+    }
+}

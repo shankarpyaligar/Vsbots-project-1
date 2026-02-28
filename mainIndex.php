@@ -57,7 +57,7 @@
 
         /* ===== SECTION SPACING ===== */
         section {
-            padding: 15px 0;
+            padding: 0px 0;
         }
 
         /* ===== FOOTER ===== */
@@ -78,6 +78,41 @@
             min-height: 500px;
             padding: 80px 0;
             background-size: cover !important;
+        }
+
+        .why-box {
+            padding: 25px 20px;
+            background: #ffffff;
+            border-radius: 10px;
+            transition: 0.3s ease;
+            height: 100%;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        .why-box img {
+            width: 40px;
+            /* small icon */
+            margin-bottom: 12px;
+        }
+
+        .why-box h5 {
+            font-size: 16px;
+            /* smaller heading */
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .why-box p {
+            font-size: 13px;
+            /* smaller paragraph */
+            color: #666;
+            line-height: 1.5;
+        }
+
+        /* Hover Effect */
+        .why-box:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.08);
         }
     </style>
 </head>
@@ -136,7 +171,7 @@
     <section class="team bg-white-3">
         <div class="container">
             <div class="section">
-                <h2 class="text-left mb-4">Onging <span>project</span></h2>
+                <h2 class="text-center mb-4">Ongoing <span>project</span></h2>
                 <section class="about">
                     <div class="row team-all">
                         <!--Team Block-->
@@ -191,53 +226,10 @@
     </section>
     <!--project section end-->
 
+    <!--Counter Start-->
 
+    <?php include('counter.php') ?>
 
-
-    <!-- START SECTION COUNTER UP -->
-    <section class="counterup">
-        <div class="">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 col-xs-12">
-                    <div class="countr">
-                        <i class="fa fa-home" aria-hidden="true"></i>
-                        <div class="count-me">
-                            <p class="counter text-left">16+</p>
-                            <h3>Years of experience</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-xs-12">
-                    <div class="countr">
-                        <i class="fa fa-list" aria-hidden="true"></i>
-                        <div class="count-me">
-                            <p class="counter text-left">800+</p>
-                            <h3>Happy Clients</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-xs-12">
-                    <div class="countr mb-0">
-                        <i class="fa fa-users" aria-hidden="true"></i>
-                        <div class="count-me">
-                            <p class="counter text-left">9+</p>
-                            <h3>projects completed </h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-xs-12">
-                    <div class="countr mb-0 last">
-                        <i class="fa fa-trophy" aria-hidden="true"></i>
-                        <div class="count-me">
-                            <p class="counter text-left">90+</p>
-                            <h3> acres completed
-                                s</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
     <!-- END SECTION COUNTER UP -->
 
     <!-- START SECTION TESTIMONIALS -->
@@ -369,49 +361,70 @@
 
 
     <!-- START SECTION WHY CHOOSE US -->
-    <section class="how-it-works bg-white-2">
+    <section class="how-it-works bg-white-2 py-5">
         <div class="container">
-            <div class="sec-title">
+            <div class="sec-title text-center mb-5">
                 <h2><span>Why </span>Choose Us</h2>
                 <p>We provide full service at every step.</p>
             </div>
-            <div class="row service-1">
-                <article class="col-lg-4 col-md-6 col-xs-12 serv" data-aos="fade-up">
-                    <div class="serv-flex">
-                        <div class="art-1 img-13">
-                            <img src="images/icons/icon-4.svg" alt="">
-                            <h3>Wide Renge Of Properties</h3>
-                        </div>
-                        <div class="service-text-p">
-                            <p class="text-center">lorem ipsum dolor sit amet, consectetur pro adipisici
-                                consectetur debits adipisicing lacus consectetur Business Directory.</p>
-                        </div>
+
+            <div class="row">
+
+                <!-- 1 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="why-box text-center">
+                        <img src="images/icons/icon-4.svg" alt="">
+                        <h5>Trusted Experience</h5>
+                        <p>Over 16 years of delivering well-planned residential layouts with reliability and
+                            consistency.</p>
                     </div>
-                </article>
-                <article class="col-lg-4 col-md-6 col-xs-12 serv" data-aos="fade-up">
-                    <div class="serv-flex">
-                        <div class="art-1 img-14">
-                            <img src="images/icons/icon-5.svg" alt="">
-                            <h3>Trusted by thousands</h3>
-                        </div>
-                        <div class="service-text-p">
-                            <p class="text-center">lorem ipsum dolor sit amet, consectetur pro adipisici
-                                consectetur debits adipisicing lacus consectetur Business Directory.</p>
-                        </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="why-box text-center">
+                        <img src="images/icons/icon-5.svg" alt="">
+                        <h5>Clear Documentation</h5>
+                        <p>Complete legal transparency and proper approvals for safe, secure investments.</p>
                     </div>
-                </article>
-                <article class="col-lg-4 col-md-6 col-xs-12 serv mb-0 pt" data-aos="fade-up">
-                    <div class="serv-flex arrow">
-                        <div class="art-1 img-15">
-                            <img src="images/icons/icon-6.svg" alt="">
-                            <h3>Financing made easy</h3>
-                        </div>
-                        <div class="service-text-p">
-                            <p class="text-center">lorem ipsum dolor sit amet, consectetur pro adipisici
-                                consectetur debits adipisicing lacus consectetur Business Directory.</p>
-                        </div>
+                </div>
+
+                <!-- 3 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="why-box text-center">
+                        <img src="images/icons/icon-6.svg" alt="">
+                        <h5>Quality Infrastructure</h5>
+                        <p>Well-developed layouts with strong infrastructure and thoughtful planning.</p>
                     </div>
-                </article>
+                </div>
+
+                <!-- 4 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="why-box text-center">
+                        <img src="images/icons/icon-4.svg" alt="">
+                        <h5>Timely Delivery</h5>
+                        <p>Projects completed on schedule with professional execution.</p>
+                    </div>
+                </div>
+
+                <!-- 5 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="why-box text-center">
+                        <img src="images/icons/icon-5.svg" alt="">
+                        <h5>Customer First Approach</h5>
+                        <p>Focused on satisfaction, clear communication, and long-term relationships.</p>
+                    </div>
+                </div>
+
+                <!-- 6 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="why-box text-center">
+                        <img src="images/icons/icon-6.svg" alt="">
+                        <h5>Secure Investment</h5>
+                        <p>Designed to offer lasting value and strong future growth potential.</p>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -624,6 +637,49 @@
     <!-- 6️⃣ Main Custom Script -->
     <script src="js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+
+            const counters = document.querySelectorAll(".counter");
+
+            const startCounting = (counter) => {
+
+                let text = counter.innerText;
+                let target = parseInt(text.replace(/\D/g, "")); // remove + or any text
+                let count = 0;
+
+                counter.innerText = "0+";
+
+                let increment = target / 100;
+
+                const updateCounter = () => {
+                    if (count < target) {
+                        count += increment;
+                        counter.innerText = Math.ceil(count) + "+";
+                        setTimeout(updateCounter, 20);
+                    } else {
+                        counter.innerText = target + "+";
+                    }
+                };
+
+                updateCounter();
+            };
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        startCounting(entry.target);
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.5 });
+
+            counters.forEach(counter => {
+                observer.observe(counter);
+            });
+
+        });
+    </script>
 </body>
 
 </html>

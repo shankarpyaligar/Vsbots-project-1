@@ -18,9 +18,9 @@
     <!-- ================= COVER SECTION ================= -->
     <!-- ================= PROJECT BANNER ================= -->
     <section class="project-banner">
-        <div class="banner-overlay">
+        <div class="">
             <div class="container text-center text-white">
-                <h1>Royal Villas</h1>
+                <h1>Smart City</h1>
                 <p>Successfully Delivered in 2025</p>
             </div>
         </div>

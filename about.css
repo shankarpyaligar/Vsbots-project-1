@@ -1,0 +1,167 @@
+/* Vision Mission */
+.vm-card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    transition: 0.3s ease;
+    height: 100%;
+}
+
+.vm-card h3 {
+    color: #dc3545;
+    margin-bottom: 15px;
+}
+
+.vm-card p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.vm-card:hover {
+    transform: translateY(-5px);
+}
+
+/* About Section Image Fix */
+.about img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Team Section Fix */
+.team-img img {
+    width: 100%;
+    height: auto;
+}
+
+/* Small Screen Fix */
+@media (max-width: 768px) {
+
+    .about {
+        text-align: center;
+    }
+
+    .about .btn {
+        width: 100%;
+    }
+
+    .sec-title h2 {
+        font-size: 24px;
+    }
+
+    .team-wrap {
+        margin-bottom: 30px;
+    }
+
+    .vm-card {
+        padding: 20px;
+    }
+}
+
+/* Vision & Mission Section */
+.vision-mission {
+    background: #f8f9fa;
+}
+
+.vm-card {
+    background: #ffffff;
+    padding: 40px 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(159, 61, 61, 0.08);
+    transition: all 0.4s ease;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Heading Style */
+.vm-card h3 {
+    color: #dc3545;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+/* Paragraph */
+.vm-card p {
+    color: #555;
+    line-height: 1.7;
+}
+
+/* 🔥 Hover Effect */
+.vm-card:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    background: #dc3545;
+}
+
+/* Text Color Change on Hover */
+.vm-card:hover h3,
+.vm-card:hover p {
+    color: #ffffff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .vm-card {
+        padding: 25px;
+    }
+}
+
+/* ===== Vision & Mission New Style ===== */
+
+.vision-mission {
+    background: linear-gradient(to right, #f9f9f9, #ffffff);
+}
+
+.vm-box {
+    background: #ffffff;
+    padding: 40px 30px;
+    border-radius: 12px;
+    transition: 0.4s ease;
+    height: 100%;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+    position: relative;
+}
+
+.vm-icon {
+    width: 65px;
+    height: 65px;
+    background: #c40000;
+    color: #ffffff;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    transition: 0.4s ease;
+}
+
+.vm-box h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.vm-box p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Hover Effect */
+.vm-box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+.vm-box:hover .vm-icon {
+    background: #000;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .vm-box {
+        padding: 30px 20px;
+    }
+}

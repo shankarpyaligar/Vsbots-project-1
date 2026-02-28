@@ -1,4 +1,4 @@
-<nav class="custom-navbar">
+<nav class="custom-navbar" style="background-color: white !important;">
     <div class="container nav-wrapper">
 
         <!-- Logo -->
@@ -30,3 +30,22 @@
 
     </div>
 </nav>
+<script>
+    const menuToggle = document.getElementById("menuToggle");
+    const navMenu = document.getElementById("navMenu");
+
+    // Toggle menu in mobile
+    menuToggle.addEventListener("click", function () {
+        navMenu.classList.toggle("active");
+    });
+
+    // Dropdown click for mobile
+    document.querySelectorAll(".dropdown > a").forEach(item => {
+        item.addEventListener("click", function (e) {
+            if (window.innerWidth <= 768) {
+                e.preventDefault();
+                this.nextElementSibling.classList.toggle("show");
+            }
+        });
+    });
+</script>
